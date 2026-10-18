@@ -1,0 +1,17 @@
+services:
+  db:
+    # Versi PostgreSQL sementara, belum diputuskan tim (lihat docs/decisions.md)
+    image: pgvector/pgvector:pg16
+    container_name: umb_academic_rag_db
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: umb_academic_rag
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
