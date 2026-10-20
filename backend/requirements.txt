@@ -3,8 +3,10 @@ uvicorn[standard]>=0.28.0
 pydantic>=2.6.0
 pydantic-settings>=2.2.0
 python-dotenv>=1.0.1
+psycopg[binary]>=3.2.0
+psycopg-pool>=3.2.0
+pgvector>=0.3.0
 
-# Catatan:
-# - Library akses database (psycopg, SQLAlchemy, atau lainnya) berstatus Terbuka (lihat AGENTS.md Bagian 2).
-# - SDK/client Gemini berstatus Terbuka (lihat AGENTS.md Bagian 2).
-# Dependensi di atas akan ditambahkan setelah diputuskan oleh pemilik repo.
+google-genai>=1.0.0
+httpx>=0.27.0
+pytest>=8.0.0
