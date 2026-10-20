@@ -47,3 +47,6 @@ data/raw/*
 *.swo
 .DS_Store
 Thumbs.db
+
+# Task reports
+docs/tasks/laporan-kerja-anggota-2.md

@@ -5,6 +5,7 @@ Reads environment variables from .env or system environment.
 """
 
 from typing import List, Optional
+from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -28,7 +29,7 @@ class Settings(BaseSettings):
 
     # RAG Retrieval Hyperparameters
     top_k: int = 5
-    similarity_threshold: float = 0.0
+    similarity_threshold: float = 0.65
 
     # CORS
     allowed_origins: str = "http://localhost:3000,http://localhost:5173"
@@ -39,6 +40,14 @@ class Settings(BaseSettings):
         case_sensitive=False,
         extra="ignore",
     )
+
+    @field_validator("embedding_dim", "embedding_model", "llm_model", mode="before")
+    @classmethod
+    def empty_str_to_none(cls, v: object) -> object:
+        """Ubah string kosong dari .env menjadi None untuk tipe opsional."""
+        if isinstance(v, str) and not v.strip():
+            return None
+        return v
 
     @property
     def cors_origins(self) -> List[str]:
