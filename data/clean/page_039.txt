@@ -1,0 +1,89 @@
+Program Studi Desain Komunikasi Visual
+Semester 4
+Pendidikan Agama Budha
+K002500004 Buddhist Religious Education 2
+Pendidikan Agama Islam
+K002500001 Islamic Religious Education 2
+Pendidikan Agama Protestan
+K002500002 Protestant Religious Education 2
+Pendidikan Agama Khatolik
+K002500003 Catholic Religious Education 2
+Pendidikan Agama Hindu
+K002500005 2
+Hindu Religious Education
+Pendidikan Agama Konghucu
+K002500006 2
+Confucianism Religious Education
+Etik Mercu Buana Dan Pendidikan Anti Korupsi
+U002500001 2
+Mercu Buana Ethics And Anti-Corruption Education
+Kewirausahaan
+U002500002 3
+Entrepreneurship
+Visual Communication Strategy
+W232500017 3
+Visual Communication Strategy
+3D Modeling Studio
+W232500018 3
+3D Modeling Studio
+Creative Writing
+W232500019 3
+Creative Writing
+Studio 4 Visual Campaign Design
+W232500020 5
+Studio 4 Visual Campaign Design
+Semester 5
+Visual Exploration Of Wayang
+P232530009 3
+Visual Exploration Of Wayang
+Illustrative Photography
+P232520008 3
+Illustrative Photography
+Comic Development
+P232520007 3
+Comic Development
+Exploratory Illustration
+P232520006 3
+Exploratory Illustration
+Visual Effects
+P232510005 3
+Visual Effects
+Audio Design
+P232510004 3
+Audio Design
+Digital Film Production
+P232510003 3
+Digital Film Production
+Interaktif Media Design
+P232510002 3
+Interaktif Media Design
+Motion Graphic
+P232510001 3
+Motion Graphic
+Bahasa Indonesia
+K002500009 2
+Indonesian Language
+Intellectual Property Rights (IPR)
+W232500021 2
+Intellectual Property Rights (IPR)
+3D Animation Studio
+W232500022 3
+3D Animation Studio
+Design Methodology
+W232500023 3
+Design Methodology
+Visual Packaging Design
+W232500024 3
+Visual Packaging Design
+Advanced Entrepreneurship
+P232540013 3
+Advanced Entrepreneurship
+Digital Marketing Visualization
+P232540012 3
+Digital Marketing Visualization
+Graphic Design Collateral
+P232530011 3
+Graphic Design Collateral
+Batik Pattern Desain
+P232530010 3
+Batik Pattern Desain

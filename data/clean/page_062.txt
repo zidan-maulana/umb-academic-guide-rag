@@ -1,0 +1,76 @@
+Program Studi Teknik Industri
+Semester 6
+Analisis & Perancangan Perusahaan
+W162500031 Enterprise Analysis and Design 2
+Perancangan Tata Letak Fasilitas
+W162500032 Facility Layout Design 3
+Smart Manufacturing
+W162500033 Smart Manufacturing 2
+Perancangan Dan Pengembangan Produk
+W162500034 Product Design and Development 3
+Praktikum Terintegrasi 3
+W162500035 Integrated Laboratory Work 3 2
+Kerja Praktik
+W162500036 Industrial Internship 2
+English For Engineering
+P162520001 English for Engineering 3
+Lean Manufacturing System and Design
+P162510002 Lean Manufacturing Systems and Design 3
+Perancangan Sistem Keandalan Dan Pemeliharaan
+P162510003 Reliability and Maintenance System Design 3
+Analisis Keputusan
+P162520004 3
+Decision Analysis
+Manajemen Proyek Industri
+P162520005 3
+Industrial Project Management
+Marketing Management
+P162530006 3
+Marketing Management
+Transportasi
+P162530007 3
+Transportation
+Semester 7
+Perancangan Aplikasi Dan Sistem Teknik Industri (PASTI)
+W162500037 4
+Industrial Engineering Application and System Design (PASTI)
+Metodologi Penelitian Teknik
+W162500038 3
+Engineering Research Methodology
+Kewarganegaraan
+K002500008 2
+Citizenship
+Total Productive Maintenance (TPM)
+P162510008 3
+Total Productive Maintenance (TPM)
+Sustainable Manufacturing
+P162510009 3
+Sustainable Manufacturing
+Analisis Kelayakan Pabrik
+P162510010 3
+Plant Feasibility Analysis
+Quality Management
+P162520011 3
+Quality Management
+Business Intelligence
+P162520012 3
+Business Intelligence
+Manajemen Energi
+P162520013 3
+Energy Management
+Manajemen Kinerja Organisasi
+P162520014 3
+Organizational Performance Management
+Strategi Logistik
+P162530015 3
+Logistics Strategy
+Pengadaan
+P162530016 3
+Procurement
+Supply Chain Risk Management
+P162530017 3
+Supply Chain Risk Management
+Semester 8
+Tugas Akhir
+W162500039 6
+Undergraduate Thesis

@@ -1,0 +1,41 @@
+Sistem Evaluasi
+Sistem Evaluasi
+Evaluasi Studi adalah suatu penilaian atas hasil studi berdasarkan perolehan/ beban SKS, Masa Belajar, IPS dan IPK, dengan ketentuan sebagai berikut:
+(1) Evaluasi studi dilakukan dalam bentuk ujian, tugas,
+praktikum, dan pengamatan.
+(2) Tes akhir pembelajaran dapat dilaksanakan berupa
+ujian semester, ujian komprehensif, ujian praktek (untuk Program Diploma Tiga), ujian skripsi/karya ilmiah lain (untuk Program Sarjana), ujian tesis (untuk Program Magister), ujian disertasi (untuk Program Doktor).
+(3) Ujian semester dilaksanakan pada setiap semester,
+yaitu ujian akhir semester (UAS).
+Sistem Penilaian
+(1) Penilaian akhir tiap mata kuliah ditentukan
+berdasarkan komponen dan bobot nilai akhir mahasiswa yang terdiri dari:
+KomKepgoinaetann Nilai Bobot (%)
+Presensi 0
+Tugas * Pratikum (apabila ada) *
+Ujian Akhir Semester *
+Total 100
+Catatan : dapat disesuaikan sesuai ketentuan program studi masing-masing
+(2) Nilai Akhir (NA) adalah hasil evaluasi suatu mata
+kuliah, ujian tugas akhir yang dinyatakan dengan nilai huruf (NH). Pedoman penilaian Nilai Akhir (NA) dilakukan menurut acuan nilai mutlak (absolut), sebagai berikut:
+Nilai Bobot
+(NB)
+Istimewa
+Sangat Baik
+Baik
+Cukup Baik
+Cukup
+Kurang
+Tidak Lulus
+
+(3) Apabila mahasiswa mengulang suatu mata kuliah,
+maka nilai tertinggi yang akan diberlakukan bagi yang bersangkutan.
+(4) Indeks Prestasi Semester (IPS) adalah nilai yang
+menunjukkan keberhasilan studi mahasiswa pada setiap semester dan dihitung pada akhir semester dengan rumus:
+S (sks x NB)
+IPS =
+S sks
+(5) IPS terdapat pada Kartu Hasil Studi (KHS) yang dapat
+diakses secara online oleh mahasiswa melalui sistem informasi akademik (SIA).
+(6) KHS diumumkan melalui SIA setiap akhir semester
+sesuai jadwal yang ditetapkan pada kalender akademik;

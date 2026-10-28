@@ -1,0 +1,65 @@
+Program Studi Teknik Informatika
+Semester 1
+Konsep Dasar Pemrograman
+W152500004 Fundamental Programming Concepts 3
+Fundamental Jaringan
+W152500005 Networking Fundamentals 3
+Konsep Sistem Basis Data
+W152500006 Core Database Systems Concepts 3
+Arsitektur dan Organisasi
+W152500007 Architecture and Organization 3
+Bahasa Inggris
+U002500004 English 2
+Matematika dan Statistik Dasar
+F062500001 Mathematical and Statistical Foundation 3
+Kalkulus I
+W152500003 Calculus I 3
+Semester 2
+Sistem Operasi
+W152500009 3
+Operating System
+Pancasila
+K002500007 2
+Pancasila (National Ideology)
+Statistik dan Probabilitas
+W152500010 3
+Statistic and Probability
+Kecerdasan Buatan
+W152500011 3
+Artificial Intelligence
+Fundamental Struktur Data dan Algoritma
+W152500012 3
+Foundational Data Structures and Algorithms
+Pemodelan Manajemen Data (SQL/No SQL)
+W152500013 3
+Data Management Modelling (SQL/No SQL)
+Kalkulus II
+W152500021 3
+Calculus II
+Semester 3
+W152500008 Analisis dan Desain Berorientasi Objek 3
+Object Oriented Analysis and Design
+W152500014 Sains Data 3
+Data Science
+W152500016 Aljabar Linier 3
+Linear Algebra
+W152500018 Matematika Diskrit 3
+Discrete Mathematics
+K002500001 Pendidikan Agama Islam 2
+Islamic Religious Education
+K002500002 Pendidikan Agama Protestan 2
+Protestant Religious Education
+K002500003 Pendidikan Agama Khatolik 2
+Catholic Religious Education
+K002500004 Pendidikan Agama Budha 2
+Buddhist Religious Education
+K002500005 Pendidikan Agama Hindu 2
+Hindu Religious Education
+K002500006 Pendidikan Agama Konghucu 2
+Confucianism Religious Education
+K002500009 Bahasa Indonesia 2
+Indonesian Language
+F062500002 Rekayasa Perangkat Lunak 3
+Software Engineering
+F062500004 Etika, Sosial dan Profesi 3
+Society, Ethics, and The Profession

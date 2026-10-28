@@ -1,0 +1,80 @@
+Kurikulum Psikologi
+Semester 1
+Etik Mercu Buana dan Pendidikan Anti Korupsi
+U002500001 Mercu Buana Ethics and Anti-Corruption Education 2
+Bahasa Inggris
+U002500004 English 2
+Ilmu Sosial Dasar
+W612500002 Introduction to Social Sciences 3
+Kewarganegaraan
+K002500008 Citizenship 2
+Bahasa Indonesia
+K002500009 Indonesian Language 2
+Biopsikologi
+W612500006 3
+Biopsychology
+Sejarah dan Aliran Psikologi
+W612500004 3
+History and Systems of Psychology
+Perilaku dan Proses Mental
+W612500005 3
+Behavior and Mental Processes
+Semester 2
+Pendidikan Agama Konghucu
+K002500006 2
+Confucianism Religious Education
+Pengantar Filsafat
+W612500003 3
+Introduction to Philosophy
+Teori Kepribadian
+W612500007 3
+Personality Theory
+Statistika Psikologi
+W612500008 4
+Statistics in Psychology
+Dasar-Dasar Metode Penelitian
+W612500009 3
+Fundamentals of Research Methods
+Psikologi Perkembangan
+W612500016 3
+Developmental Psychology
+Pendidikan Agama Islam
+K002500001 2
+Islamic Religious Education
+Pendidikan Agama Protestan
+K002500002 2
+Protestant Religious Education
+Pendidikan Agama Khatolik
+K002500003 2
+Catholic Religious Education
+Pendidikan Agama Budha
+K002500004 2
+Buddhist Religious Education
+Pendidikan Agama Hindu
+K002500005 2
+Hindu Religious Education
+Pancasila
+K002500007 2
+Pancasila (National Ideology)
+Semester 3
+Pengantar Psikodiagnostik
+W612500019 3
+Introduction to Psychodiagnostics
+Psikometri
+W612500020 3
+Psychometry
+Psikologi Industri dan Organisasi
+W612500013 3
+Industrial & Organizational Psychology
+Penulisan Ilmiah Psikologi
+W612500034 3
+Psychological Scientific Writing
+Metode Penelitian Kuantitatif
+W612500010 3
+Quantitative Research Methods
+Pengantar Psikologi Positif
+W612500021 3
+Introduction to Positive Psychology
+Psikologi Pendidikan
+W612500017 3
+Educational Psychology

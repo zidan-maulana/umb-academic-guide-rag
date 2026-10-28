@@ -1,0 +1,23 @@
+Semester 7
+Psikologi Forensik
+P612510002 Forensic Psychology 3
+Psikologi Kesehatan
+P612510004 Health Psychology 3
+Psikologi Konsumen dan Bisnis
+P612520007 Consumer and Business Psychology 3
+Psikologi Ruang Maya
+P612530011 Cyberpsychology 3
+Psikologi Politik
+P612530012 Political Psychology 3
+Psikologi Anak Berkebutuhan Khusus
+P612540014 Psychology of Children With Special Needs 3
+Pendidikan Positif
+P612540015 3
+Positive Education
+Kewirausahaan Lanjutan
+U002500003 3
+Advanced Entrepreneurship
+Semester 8
+Tugas Akhir
+W612500035 6
+Final Project

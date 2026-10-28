@@ -1,0 +1,63 @@
+Program Studi Teknik Elektro
+Semester 3
+Probabilitas Dan Statistika
+W142500009 Probability And Statistic 3
+Matematika 3
+W142500010 Mathematics 3 3
+Teknik Digital
+W142500012 Digital Technique 3
+Pemrograman Komputer 2
+W142500013 Computer Programming 2 3
+Sinyal Dan Sistem
+W142500014 Signals And Systems 3
+Pengantar Sistem Kendali
+W142500015 Introduction To Control Systems 3
+Pengantar Teknologi Telekomunikasi
+W142500016 Introduction To Telecommunication Technology 3
+Semester 4
+Sistem Cerdas Dan Pembelajaran Mesin
+W142500021 Intelligent Systems And Machine Learning 3
+Fisika Dasar 3
+W142500003 Physics 3 2
+Konversi Energi Listrik
+W142500017 Electric Energy Conversion 3
+Praktikum Konversi Energi Listrik
+W142500018 Electric Energy Conversion Laboratory 1
+Pengolahan Sinyal Digital
+W142500019 Digital Signal Processing 3
+Arsitektur Dan Sistem Tertanam
+W142500020 Architecture And Embedded System 3
+Praktikum Pengantar Teknologi Telekomunikasi
+W142500022 1
+Telecommunication Technology Laboratory
+Etik Mercu Buana Dan Pendidikan Anti Korupsi
+U002500001 2
+Mercu Buana Ethics And Anti-Corruption Education
+Kewirausahaan
+U002500002 3
+Entrepreneurship
+Semester 5
+Praktikum Instalasi Listrik Dan Rekayasa Proteksi
+W142500028 1
+Electrical Installation And Protection Engineering Laboratory
+Pancasila
+K002500007 2
+Pancasila (National Ideology)
+Bahasa Indonesia
+K002500009 2
+Indonesian Language
+Optimasi Metaheuristik Dan Evolusioner
+W142500023 3
+Metaheuristic And Evolutionary Optimization
+Sistem Tenaga Listrik
+W142500024 3
+Electrical Power Systems
+Jaringan Komputer Dan Keamanan Siber
+W142500025 3
+Computer Network And Cybersecurity
+Medan Elektromagnetik
+W142500026 3
+Electromagnetic Fields
+Instalasi Listrik Dan Rekayasa Proteksi
+W142500027 3
+Electrical Installation And Protection Engineering

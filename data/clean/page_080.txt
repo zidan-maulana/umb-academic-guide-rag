@@ -1,0 +1,43 @@
+Program Studi
+Akuntansi Program Sarjana
+Transformasi Digital dan Implikasi Akuntansi
+P322540013 Digital Transformation and Accounting Implications 3
+Intelijen Data Bisnis
+P322540014 Business Data Intelligence 3
+Model Bisnis & Inovasi Teknologi
+P322540015 Business Model & Technology Innovation 3
+Teknologi Blockchain Untuk Ekonomi dan Bisnis
+P322540016 Blockchain Technology for Economy and Business 3
+Pengauditan Sistem Informasi
+P322550017 Information System Auditing 3
+Audit Internal
+P322550018 Internal Audit 3
+Audit Investigasi & Akuntansi Forensik
+P320550019 Investigative Audit and Forensic Accounting 3
+Laboratorium Pengauditan
+P322550020 Auditing Laboratory 3
+Dasar-Dasar Artificial Intelligence
+W322500029 Basic Artificial Intelligence 3
+Akuntansi Keuangan Lanjutan II
+W322500028 3
+Advanced Accounting II
+Kewirausahaan Lanjutan
+W322500035 3
+Advanced Enterpreunurship
+Semester 7
+Etika Profesi Akuntan
+W322500032 2
+Accountant Professional Ethics
+Magang
+W322500031 4
+Internship
+Praktik Bisnis Global
+W322500033 3
+Global Business Practices
+Semester 8
+Tugas Akhir - Skripsi
+W322500034 6
+Thesis
+TA Kewirausahaan
+W322500036 6
+Enterpreunurship Thesis
