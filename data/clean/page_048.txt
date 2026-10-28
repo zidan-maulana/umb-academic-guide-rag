@@ -1,0 +1,77 @@
+Program Studi Arsitektur
+Semester 1
+Bahasa Inggris
+U002500004 English 2
+Pendidikan Agama Protestan
+K002500002 Protestant Religious Education 2
+Pendidikan Agama Khatolik
+K002500003 Catholic Religious Education 2
+Pendidikan Agama Budha
+K002500004 Buddhist Religious Education 2
+Pendidikan Agama Hindu
+K002500005 Hindu Religious Education 2
+Pendidikan Agama Konghucu
+K002500006 Confucianism Religious Education 2
+Pancasila
+K002500007 Pancasila (National Ideology) 2
+Pendidikan Agama Islam
+K002500001
+Islamic Religious Education
+2
+Pengantar Arsitektur
+W122500004
+Introduction to Architecture
+3
+Estetika Bentuk
+W122500003
+Form Esthetics
+3
+Gambar Teknik
+W122500002
+Technical Drawing
+3
+Gambar Arsitektur
+W122500001
+Architectural Drawing
+3
+Semester 2
+Kewarganegaraan
+K002500008 2
+Citizenship
+Struktur, Konstruksi, Dan Utilitas I
+W122500005 3
+Structure, Construction, and Utilities I
+Sejarah Arsitektur Dunia
+W122500006 3
+World Architectural History
+Perancangan Arsitektur I
+W122500007 3
+Architectural Design I
+Studio Perancangan Arsitektur I
+W122500008 3
+Architectural Design Studio I
+Perencanaan Tapak
+W122500009 3
+Site Planning
+Fisika Bangunan
+W122500010 3
+Building Physics
+Semester 3
+W122500016 Arsitektur Hijau 3
+Green Architecture
+U002500002 Kewirausahaan 3
+Entrepreneurship
+W122500011 Arsitektur Nusantara 3
+Nusantara Architectural
+Teori Arsitektur
+W122500012 3
+Architectural Theory
+Perancangan Arsitektur II
+W122500013 3
+Architectural Design II
+Studio Perancangan Arsitektur II
+W122500014 3
+Architectural Design Studio II
+Struktur, Konstruksi, Dan Utilitas II
+W122500015 3
+Structure, Construction, and Utilities II

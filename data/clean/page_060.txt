@@ -1,0 +1,53 @@
+Program Studi Teknik Industri
+Semester 1
+Pendidikan Agama Protestan
+K002500002 Protestant Religious Education 2
+Pendidikan Agama Islam
+K002500001 Islamic Religious Education 2
+Menggambar Teknik
+W162500003 Engineering Drawing 2
+Pendidikan Agama Khatolik
+K002500003 Catholic Religious Education 2
+Pengantar Teknik Industri
+W162500002 Introduction to Industrial Engineering 2
+Fisiologi Dan Anatomi Manusia
+W162500001 Human Physiology and Anatomy 3
+Pendidikan Agama Budha
+K002500004 Buddhist Religious Education 2
+Pendidikan Agama Hindu
+K002500005 Hindu Religious Education 2
+Pendidikan Agama Konghucu
+K002500006 Confucianism Religious Education 2
+Matematika 1
+F022500001 3
+Mathematics 1
+Kimia Dasar
+F022500002 3
+Basic Chemistry
+Fisika Dasar 1
+F022500003 3
+Basic Physics 1
+Praktikum Fisika Dasar 1
+F022500004 1
+Physics Practical 1
+Semester 2
+F022500005 Matematika 2 3
+Mathematics 2
+W162500004 Mekanika Teknik 2
+Engineering Mechanics
+W162500005 Pengetahuan Bahan Teknik 2
+Engineering Materials
+W162500006 Pemrograman Komputer 2
+Computer Programming
+F022500007 Praktikum Fisika Dasar 2 1
+Physics Practical 2
+W162500007 Praktik Pemrograman Komputer 1
+Computer Programming Laboratory Work
+K002500007 Pancasila 2
+Pancasila (National Ideology)
+K022500009 Bahasa Indonesia 2
+Indonesian Language
+U002500004 Bahasa Inggris 2
+English
+F022500006 Fisika Dasar 2 3
+Basic Physics 2

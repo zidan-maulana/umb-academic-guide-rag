@@ -1,0 +1,30 @@
+Program Studi Desain Interior
+Semester 7
+Pendidikan Agama Protestan
+K002500002 Protestant Religious Education 2
+Pendidikan Agama Budha
+K002500004 Buddhist Religious Education 2
+Pendidikan Agama Hindu
+K002500005 Hindu Religious Education 2
+Pendidikan Agama Konghucu
+K002500006 2
+Confucianism Religious Education
+Bahasa Indonesia
+K002500009 2
+Indonesian Language
+Praktek Profesi
+W202500032 4
+Internship Program
+Pendidikan Agama Khatolik
+K002500003 2
+Catholic Religious Education
+Seminar
+W202500031 5
+Colloquium
+Pendidikan Agama Islam
+K002500001 2
+Islamic Religious Education
+Semester 8
+Tugas Akhir
+W202500033 6
+Final Project

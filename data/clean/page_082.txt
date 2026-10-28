@@ -1,0 +1,56 @@
+Kurikulum Manajemen Diploma Tiga
+Semester 1
+Etik Mercu Buana dan Pendidikan Anti Korupsi
+U002500001 Mercu Buana Ethics and Anti-Corruption Education 2
+Pendidikan Agama Islam
+K002500001 Islamic Religious Education 2
+Pendidikan Agama Hindu
+K002500005 Hindu Religious Education 2
+Komunikasi Bisnis
+W332500002 Business Communication 3
+Manajemen Pemasaran
+W332500003 Marketing Management 3
+Manajemen SDM dan Organisasi
+W332500004 Human Resource & Organization Management 3
+Manajemen Tourism & Hospitality
+W332500005 Tourism & Hospitality Management 3
+Bahasa Inggris
+U002500004 2
+English
+Pendidikan Agama Protestan
+K002500002 2
+Protestant Religious Education
+Pendidikan Agama Khatolik
+K002500003 2
+Catholic Religious Education
+Pendidikan Agama Budha
+K002500004 2
+Buddhist Religious Education
+Pendidikan Agama Konghucu
+K002500006 2
+Confucianism Religious Education
+Pancasila
+K002500007 2
+Pancasila (National Ideology)
+Semester 2
+Manajemen Keuangan & Budgeting Praktikum
+W332500006 3
+Financial & Budgeting Management Practicum
+Grafic Design Praktikum
+W332500007 3
+Graphic Design Practicum
+Marketing Communication
+W332500008 3
+Marketing Communication
+Pengantar Usaha Jasa MICE
+W332500009 3
+Introduction to MICE Service Business
+Kewirausahaan
+U002500002 3
+Entrepreneurship
+Kewarganegaraan
+K002500008 2
+Citizenship
+Bahasa Indonesia
+K002500009 2
+Indonesian Language

@@ -1,0 +1,79 @@
+Program Studi
+Manajemen Program Sarjana
+Semester 1
+Pancasila
+K002500007 Pancasila (National Ideology) 2
+Matematika Bisnis
+W312500002 Business Mathematics 3
+Kewarganegaraan
+K002500008 Citizenship 2
+Pengantar Akuntansi
+W312500001 Introduction to Accounting 3
+Bahasa Indonesia
+K002500009 Indonesian Language 2
+Pengantar Bisnis
+F032500001 Introduction to Business 3
+Pengantar Ekonomi Mikro
+W312500003 Introduction to Microeconomics 3
+Etik Mercu Buana dan Pendidikan Anti Korupsi
+U002500001 Mercu Buana Ethics and Anti-Corruption Education 2
+Semester 2
+Pendidikan Agama Islam
+K002500001 2
+Islamic Religious Education
+Pendidikan Agama Protestan
+K002500002 2
+Protestant Religious Education
+Pendidikan Agama Khatolik
+K002500003 2
+Catholic Religious Education
+Pendidikan Agama Hindu
+K002500005 2
+Hindu Religious Education
+Pendidikan Agama Budha
+K002500004 2
+Buddhist Religious Education
+Pendidikan Agama Konghucu
+K002500006 2
+Confucianism Religious Education
+Creativity and Innovation
+W312500013 3
+Creativity and Innovation
+Etika Dan Hukum Bisnis
+W312500004 3
+Business Ethics & Law
+Pengantar Manajemen
+W312500005 3
+Introduction to Management
+Pengantar Ekonomi Makro
+W312500006 3
+Introduction to Macroeconomics
+Statistik Bisnis
+W312500007 3
+Business Statistics
+Keberlanjutan Bisnis
+W312500008 3
+Business Sustainability
+Semester 3
+W312500014 Emerging Markets & Global Competitiveness 3
+Emerging Markets & Global Competitiveness
+F032500002 Manajemen Keuangan 3
+Financial Management
+U002500004 Bahasa Inggris 2
+English
+Manajemen Sistem Informasi 3
+W312500009
+Information Systems Management
+Manajemen Operasional 3
+W312500010
+Operation Management
+Manajemen Pemasaran 3
+W312500011
+Marketing Management
+Manajemen Sumber Daya Manusia 3
+W312500012
+Human Resources Management
+Kewirausahaan
+3
+U002500002
+Entrepreneurship
