@@ -24,9 +24,19 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+# Origin :5500 dipakai python -m http.server di folder frontend/
+_cors_origins = list(
+    dict.fromkeys(
+        [
+            *settings.cors_origins,
+            "http://localhost:5500",
+            "http://127.0.0.1:5500",
+        ]
+    )
+)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.cors_origins,
+    allow_origins=_cors_origins,
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],

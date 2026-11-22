@@ -74,15 +74,23 @@ def extract_pages(chunks: list[Any]) -> list[int]:
     return sorted(pages)
 
 
-def generate_answer(prompt: str, chunks: list[Any]) -> dict[str, Any]:
+def generate_answer(
+    prompt: str = "",
+    chunks: list[Any] | None = None,
+    question: str | None = None,
+    **kwargs: Any,
+) -> dict[str, Any]:
     """Kirim prompt ke Gemini dan kembalikan jawaban beserta sitasi halaman."""
+    if chunks is None:
+        chunks = []
+    effective_prompt = prompt or question or ""
     model_name = (os.getenv("GEMINI_MODEL") or DEFAULT_MODEL).strip() or DEFAULT_MODEL
     client = _get_client()
 
     try:
         response = client.models.generate_content(
             model=model_name,
-            contents=prompt,
+            contents=effective_prompt,
             config=types.GenerateContentConfig(temperature=0.2),
         )
         raw_text = getattr(response, "text", None)

@@ -63,9 +63,44 @@ def run_rag_pipeline(request: ChatRequest) -> ChatResponse:
     sources = format_citations(chunks)
 
     try:
+        from backend.app.services.prompt import (
+            ChunkData,
+            RAGPromptInput,
+            build_rag_prompt,
+        )
         from backend.app.services.generate import generate_answer
-        answer = generate_answer(question=request.question, chunks=chunks)
-    except (ImportError, AttributeError, NotImplementedError):
+
+        prompt_chunks = [
+            ChunkData(
+                id=c.id,
+                konten=c.konten,
+                halaman=c.halaman,
+                bagian=c.bagian,
+                jenis_konten=c.jenis_konten,
+                fakultas=c.fakultas,
+                program_studi=c.program_studi,
+            )
+            for c in chunks
+        ]
+        prompt = build_rag_prompt(
+            RAGPromptInput(context_chunks=prompt_chunks, user_query=request.question)
+        )
+        gen_result = generate_answer(prompt=prompt, chunks=chunks)
+
+        if (
+            gen_result.get("is_fallback")
+            or gen_result.get("answer") == "Informasi tidak ditemukan di panduan."
+        ):
+            return ChatResponse(
+                status="not_found",
+                answer="Informasi tidak ditemukan di panduan.",
+                sources=[],
+                mode=active_mode,
+            )
+
+        answer = gen_result.get("answer") or ""
+    except Exception as exc:
+        logger.warning("Gagal memanggil generate_answer, fallback ke top chunk: %s", exc)
         top_chunk = chunks[0]
         answer = (
             f"Berdasarkan Panduan Akademik UMB (Halaman {top_chunk.halaman}):\n"
