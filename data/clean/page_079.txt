@@ -1,0 +1,79 @@
+Program Studi
+Akuntansi Program Sarjana
+Semester 4
+Akuntansi Keberlanjutan
+W322500016 Sustainability Accounting 3
+Akuntansi Keuangan Menengah II
+W322500017 Intermediate Accounting II 3
+Sistem Informasi Akuntansi
+W322500018 Accounting Information System 3
+Perpajakan Lanjutan
+W322500019 Advanced Taxation 3
+Pengauditan
+W322500020 Auditing 3
+Statistik Untuk Akuntansi
+W322500015 Statistics for Accounting 3
+Analisis Laporan Keuangan
+W322500021 Financial Statement Analysis 3
+Semester 5
+Teori Akuntansi
+W322500024 3
+Accounting Theory
+Akuntansi Keuangan Lanjutan I
+W322500022 3
+Advanced Accounting I
+Pengauditan & Asuran
+W322500023 3
+Auditing & Assurance
+Data Analitik dan Visualisasi
+W322500025 3
+Data Analitics and Visualization
+Tata Kelola Resiko dan Kepatuhan
+W322500026 3
+Governance Risk and Compliance
+Perencanaan Sumber Daya Perusahaan
+W322500027 3
+Enterprise Resource Planning
+Manajemen Stratejik
+F032500003 3
+Strategic Management
+Semester 6
+Metodologi Penelitian Akuntansi & Bisnis
+W322500030 3
+Accounting and Business Research Methodology
+Pelaporan Keberlanjutan & Terintegrasi
+P322510001 3
+Sustainability and Integrated Reporting
+Manajemen Investasi & Pasar Modal
+P322510002 3
+Investment Management and Capital Markets
+Manajemen Risiko & Strategi Keuangan Korporat
+P322510003 3
+Risk Management & Corporate Finance Strategy
+Perencanaan Keuangan Personal
+P322510004 3
+Personal Financial Planning
+Fiqih Muamalat dan Produk Keuangan Syariah
+P322520005 3
+Fiqh Muamalat and Sharia Financial Products
+Akuntansi Keuangan Syariah
+P322520006 3
+Sharia Financial Accounting
+Pengauditan & Pengawasan Syariah
+P322520007 3
+Sharia Auditing and Supervision
+Tata Kelola Entitas Syariah
+P322520008 3
+Governance of Sharia Entities
+Akuntansi Perpajakan
+P322530009 3
+Tax Accounting
+Strategi & Manajemen Pajak
+P322530010 3
+Tax Strategy and Management
+Pajak Internasional
+P322530011 3
+International Tax
+Laboratorium Perpajakan Digital
+P322530012 3
+E-Tax Laboratory

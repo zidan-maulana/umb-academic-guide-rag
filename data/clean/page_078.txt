@@ -1,0 +1,75 @@
+Program Studi
+Akuntansi Program Sarjana
+Semester 1
+Etik Mercu Buana dan Pendidikan Anti Korupsi
+U002500001 Mercu Buana Ethics and Anti-Corruption Education 2
+Bahasa Indonesia
+K002500009 Indonesian Language 2
+Teori Ekonomi
+W322500001 Economic Theory 3
+Pengantar Akuntansi I
+W322500002 Introduction to Accounting I 3
+Pengantar Bisnis
+F032500001 Introduction to Business 3
+Pendidikan Agama Protestan
+K002500002 Protestant Religious Education 2
+Pendidikan Agama Khatolik
+K002500003 Catholic Religious Education 2
+Pendidikan Agama Budha
+K002500004 2
+Buddhist Religious Education
+Pendidikan Agama Hindu
+K002500005 2
+Hindu Religious Education
+Pancasila
+K002500007 2
+Pancasila (National Ideology)
+Excel Untuk Akuntansi
+W322500003 3
+Excel for Accounting
+Pendidikan Agama Islam
+K002500001 2
+Islamic Religious Education
+Pendidikan Agama Konghucu
+K002500006 2
+Confucianism Religious Education
+Semester 2
+W322500005 Pengantar Akuntansi II 3
+Introduction to Accounting II
+Akuntansi Manajemen I
+W322500006 3
+Management Accounting I
+Komunikasi Bisnis
+W322500007 2
+Business Communication
+Kewirausahaan
+U002500002 3
+Entrepreneurship
+Bahasa Inggris
+U002500004 2
+English
+Kewarganegaraan
+K002500008 2
+Citizenship
+Manajemen Keuangan
+F032500002 3
+Financial Management
+Hukum Bisnis
+W322500004 2
+Business & Environment Law
+Semester 3
+W322500010 Akuntansi Manajemen II 3
+Management Accounting II
+W322500011 Perpajakan 3
+Taxation
+W322500012 Akuntansi Berbasis Digital 3
+Digital Accounting
+W322500013 Akuntansi Sektor Publik dan Digitalisasi Pemerintahan 3
+Public Sector Accounting and Digital Government
+W322500014 Tata Kelola Perusahaan 3
+Corporate Governance
+W322500008 Lembaga Keuangan Syari'a 3
+Shariah Financial Entities
+Akuntansi Keuangan Menengah I
+W322500009 3
+Intermediate Accounting I

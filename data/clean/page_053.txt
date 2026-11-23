@@ -1,0 +1,91 @@
+Program Studi Teknik Mesin
+Semester 4
+Perpindahan Kalor Dan Massa
+W132500017 Engineering Heat And Energy Transfer 3
+Matematika 4
+W132500014 Mathematics 4 3
+Termodinamika 2
+W132500015 Thermodynamics 2 3
+Kinematika Dan Dinamika
+W132500016 3
+Kinematics And Dynamics
+Elemen Mesin
+W132500018 3
+Machine Elements
+Analisis Numerik
+W132500019 3
+Numerical Analysis
+Pancasila
+K002500007 2
+Pancasila (National Ideology)
+Semester 5
+Metrologi Dan Kontrol Kualitas
+W132500022 3
+Metrology And Quality Control
+Teknik Tenaga Listrik
+W132500023 2
+Electric Power Engineering
+Praktikum Teknik Tenaga Listrik
+W132500024 1
+Electric Power Laboratory
+Mesin Konversi Energi
+W132500025 2
+Energy Conversion Machines
+Sistem Kendali Cerdas
+W132500026 3
+Control Systems
+Proses Manufaktur
+W132500027 2
+Manufacturing Processes
+Praktikum Proses Manufaktur
+W132500028 1
+Manufacturing Laboratory
+Motor Bakar
+W132500029 2
+Internal Combustion Engine
+Getaran Mekanik
+W132500020 2
+Mechanical Vibrations
+Praktikum Fenomena Dasar
+W132500021 1
+Basic Phenomena Laboratory
+Semester 6
+Analisis Kegagalan Cerdas Dalam Rekayasa Mesin
+W132500035 2
+Smart Failure Analysis In Mechanical Engineering
+Manajemen Dan Audit Energi
+W132500036 2
+Energy Management And Audit
+Praktikum Analisis Kegagalan
+W132500037 1
+Failure Analysis Laboratory
+Praktikum Manajemen Dan Audit Energi
+W132500038 1
+Energy Audit Laboratory
+Kewirausahaan Lanjutan
+U002500003 3
+Advanced Entrepreneurship
+Bahasa Indonesia
+K002500009 2
+Indonesian Language
+Rekayasa Hvac Dan Efisiensi Energi
+P132510002 3
+Hvac Engineering And Energy Efficiency
+Komputasi Dinamika Fluida (Cfd)
+P132510001 3
+Computational Fluid Dynamics (Cfd)
+Teknik Kendaraan Ramah Lingkungan
+P132510003 3
+Green Vehicle Engineering
+Computer Numerical Control (Cnc)
+P132520005 3
+Computer Numerical Control (Cnc)
+Optimalisasi Dan Otomasi
+P132520004 3
+Optimization And Automation
+Teknologi Manufaktur Modern
+P132520006 3
+Smart Manufacturing
+Desain Produk Berkelanjutan 1
+W132500030 3
+Sustainable Product Design 1

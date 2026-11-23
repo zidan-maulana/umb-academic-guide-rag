@@ -1,0 +1,78 @@
+Program Studi Teknik Informatika
+Semester 4
+Interaksi Manusia dan Komputer
+W152500022 Human Computer Interaction 3
+Kewarganegaraan
+K002500008 Citizenship 2
+Kewirausahaan
+U002500002 Entrepreneurship 3
+Pemrograman Jaringan
+W152500025 Network Programming 3
+Machine Learning
+W152500023 Machine Learning 3
+Pemrograman Berorientasi Objek
+W152500017 Object Oriented Programming 3
+Keamanan Cyber
+W152500019 Cyber Security 3
+Pemrograman Web
+W152500020 3
+Web Programming
+Semester 5
+Etik Mercu Buana dan Pendidikan Anti Korupsi
+U002500001 2
+Mercu Buana Ethics and Anti-Corruption Education
+Metodologi Penelitian
+4
+W152500001
+Research Methodology
+Deep Learning
+3
+W152500027
+Deep Learning
+Analitik Data 3
+W152500015
+Data Analytics
+Pemrograman Web Enterprise 3
+W152500024
+Web Development Enterprise
+Pengolahan Citra 3
+W152500026
+Image Processing
+Kerja Praktek 3
+W152500031
+Internship
+Pemrograman Mobile 3
+W152500033
+Mobile Programming
+Semester 6
+UI/UX Teknologi Digital Imersive 3
+W152500036
+User Experience for Digital Immersive Technology
+Sistem Informasi Geografis 3
+W152500032
+Geographic Information System
+Generative AI 3
+F062500003
+Generative AI
+Natural Language Processing 3
+W152500028
+Natural Language Processing
+W152500035 Big Data 3
+Big Data
+Animasi Komputer dan Pemodelan 3D
+W152500034 3
+Computer Animation and 3D Modelling
+Cloud Computing
+W152500030 3
+Cloud Computing
+Computer Vision
+W152500029 3
+Computer Vision
+Semester 7
+Capstone Project
+W152500037 5
+Capstone Project
+Semester 8
+Tugas Akhir
+W152500002 6
+Final Project

@@ -1,0 +1,67 @@
+Program Studi Teknik Industri
+Semester 3
+Praktikum Terintegrasi 1
+W162500015 Integrated Laboratory Work 1 2
+Analisis Dan Perancangan Sistem Kerja
+W162500013 Work System Analysis and Design 2
+Ergonomi
+W162500012 Ergonomics 3
+Aljabar Linier
+W162500008 Linear Algebra 3
+Statistika
+W162500010 Statistics 3
+Praktikum Statistika
+W162500011 Statistics Laboratory Work 1
+Proses Manufaktur
+W162500014 Manufacturing Processes 2
+Teori Probabilitas
+W162500009 3
+Probability Theory
+Etik Mercu Buana Dan Pendidikan Anti Korupsi
+U002500001 2
+Mercu Buana Ethics and Anti-Corruption Education
+Semester 4
+Pengendalian & Penjaminan Kualitas
+W162500020 3
+Quality Control and Assurance
+Penelitian Operasional 1
+W162500016 3
+Operations Research 1
+W162500018 Perencanaan & Pengendalian Produksi 3
+Production Planning and Control
+W162500019 Keselamatan Dan Kesehatan Kerja 2
+Occupational Safety and Health
+Analisis Biaya
+W162500021 2
+Cost Analysis
+Analitika Data
+W162500017 2
+Data Analytics
+Perilaku Organisasi
+W162500022 2
+Organizational Behavior
+Kewirausahaan
+U002500002 3
+Entrepreneurship
+Semester 5
+W162500023 Ekonomi Teknik 3
+Engineering Economics
+W162500024 Penelitian Operasional 2 3
+Operations Research 2
+W162500025 Rekayasa Rantai Pasok 2
+Supply Chain Engineering
+Pemodelan Sistem
+W162500026 3
+System Modeling
+Perancangan Sistem Informasi Industri & ERP
+W162500027 3
+Industrial Information Systems and ERP Design
+Ekologi Industri
+W162500028 2
+Industrial Ecology
+Simulasi Sistem
+W162500029 2
+System Simulation
+Praktikum Terintegrasi 2
+W162500030 2
+Integrated Laboratory Work 2

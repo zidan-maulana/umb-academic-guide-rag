@@ -1,0 +1,64 @@
+Program Studi Desain Produk
+Semester 1
+Nirmana
+F012500001 Basic Visual And Composition 3
+Bahasa Inggris
+U002500004 English 2
+Komputer Desain
+W192500004 Design With Computer Applications 3
+Menggambar Produk 1
+W192500003 Product Drawing 1 3
+Pendidikan Agama Islam
+K002500001 Islamic Religious Education 2
+Pendidikan Agama Protestan
+K002500002 Protestant Religious Education 2
+Pendidikan Agama Khatolik
+K002500003 Catholic Religious Education 2
+Pendidikan Agama Budha
+K002500004 Buddhist Religious Education 2
+Pendidikan Agama Hindu
+K002500005 Hindu Religious Education 2
+Pendidikan Agama Konghucu
+K002500006 Confucianism Religious Education 2
+Menggambar Teknik
+W192500002 Technical Drawing 3
+Sejarah Desain
+W192500001 History Of Design 3
+Semester 2
+Computer Aided Design (Cad)
+W192500010 3
+Computer Aided Design (Cad)
+Bahasa Indonesia
+K002500009 2
+Indonesian Language
+Berfikir Desain
+W192500005 3
+Design Thingking
+Kritik Dan Apresiasi Desain
+W192500006 3
+Design Criticism And Appreciation
+Material Dan Proses
+W192500007 3
+Materials And Processes
+Rekayasa Sistem & Prototype
+W192500008 3
+System Exploration And Prototyping
+Menggambar Produk 2
+W192500009 3
+Product Drawing 2
+Semester 3
+AI Untuk Literasi Desain
+F012500002 2
+AI For Design
+K002500007 Pancasila 2
+Pancasila (National Ideology)
+W192500013 Komputer Desain 3D Modeling 3
+Computer-Aided 3D Modeling
+W192500012 Metode Desain 3
+Design Methods
+W192500011 Desain Batik 3
+Batik Design
+U002500001 Etik Mercu Buana Dan Pendidikan Anti Korupsi 2
+Mercu Buana Ethics And Anti-Corruption Education
+W192500014 Studio Desain Produk 1 5
+Product Design Studio 1

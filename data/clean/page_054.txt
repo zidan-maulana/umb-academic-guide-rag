@@ -1,0 +1,51 @@
+Mekatronika
+W132500031 Mechatronics 3
+Kerja Praktik
+W132500032 Internship 2
+Kesehatan Dan Keselamatan Kerja & Lingkungan
+W132500033 3
+Occupational Health, Safety And Environment (Hse)
+Praktikum Mesin Konversi Energi
+W132500034 1
+Energy Conversion Machines Laboratory
+Semester 7
+Desain Produk Berkelanjutan 2
+W132500039 3
+Sustainable Product Design 2
+Konstruksi Mesin
+W132500044 3
+Machine Construction
+Energi Baru Terbarukan
+W132500045 3
+Renewable Energy
+Pemodelan Dan Analisis Sistem Perpipaan
+W13250042 2
+Piping System Modeling And Analysis
+Perlakuan Panas Dan Permukaan
+P132520009 3
+Heat And Surface Treatment
+Metodologi Penelitian
+W132500040 3
+Research Methodology
+Analisis Teknoekonomi
+W13250041 2
+Technoeconomic Analysis
+Smart Energy
+P132510008 3
+Smart Energy Systems
+Mesin-Mesin Turbo
+P132510007 3
+Turbo Machinery
+Polimer Dan Komposit
+P132520011 3
+Polymers And Composites
+Rekayasa Korosi
+P132520010 3
+Corrosion Engineering
+Perawatan Mesin
+W132500043 3
+Machine Maintenance
+Semester 8
+Tugas Akhir
+W132500046 6
+Final Project
