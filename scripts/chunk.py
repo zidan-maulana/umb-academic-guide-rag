@@ -121,7 +121,7 @@ PAGE_MAPPING = {
     80: ("FEB", "Akuntansi", "Sarjana"),
     81: ("FEB", "Manajemen Perusahaan", "Diploma Tiga"),
     82: ("FEB", "Manajemen Perusahaan", "Diploma Tiga"),
-    83: ("FEB", "Akuntansi", "Diploma Tiga"),
+    83: ("FEB", "Manajemen Perusahaan", "Diploma Tiga"),
     # Fikom
     84: ("Fikom", "Ilmu Komunikasi", "Sarjana"),
     85: ("Fikom", "Ilmu Komunikasi", "Sarjana"),
@@ -240,62 +240,126 @@ def chunk_accreditation_page(text: str, page_num: int = 11) -> list[ChunkModel]:
     return chunks
 
 
+# Page-specific regulation headings based on visual and content structure (pages 14-25)
+REGULATION_HEADINGS_MAP = {
+    14: [
+        ("Ketentuan Pelaksanaan", r"^Ketentuan Pelaksanaan$"),
+        ("Kurikulum", r"^Kurikulum$"),
+        ("Prinsip Pembelajaran", r"^(?:Prinsip Pembelajaran|n Pembelajaran)"),
+        ("Semester", r"^Semester$"),
+        ("Kegiatan Akademik", r"^Kegiatan Akademik$"),
+    ],
+    15: [
+        ("Satuan Kredit Semester", r"^Satuan Kredit Semester"),
+        ("Pelaksanaan Perkuliahan", r"^Pelaksanaan Perkuliahan$"),
+        ("Jadwal Kuliah", r"^Jadwal Kuliah$"),
+        ("Waktu Perkuliahan", r"^Waktu Perkuliahan$"),
+    ],
+    16: [
+        ("Kehadiran Perkuliahan", r"^Kehadiran Perkuliahan$"),
+        ("Beban Belajar dan Masa Belajar", r"^Beban Belajar"),
+    ],
+    17: [
+        ("Masa Belajar", r"^Masa Belajar$"),
+        ("Pendaftaran KRS Online", r"^Pendaftaran Kartu Rencana Studi"),
+        ("Ujian Akhir Semester", r"^Ujian Akhir Semester$"),
+    ],
+    18: [
+        ("Pelaksanaan UAS", r"^Pelaksanaan UAS$"),
+        ("Pengumuman KHS", r"^Pengumuman Daftar Hasil Studi Semester$"),
+    ],
+    19: [
+        ("Cuti Akademik", r"^Cuti Akademik$"),
+    ],
+    20: [
+        ("Penyusunan Tugas Akhir", r"^Penyusunan Tugas Akh"),
+        ("Ujian Tugas Akhir", r"^Ujian Tugas Akhir$"),
+    ],
+    21: [
+        ("Pindah Studi", r"^Pindah Studi$"),
+    ],
+    22: [
+        ("Sistem Evaluasi", r"^Sistem Evaluasi$"),
+        ("Sistem Penilaian", r"^Sistem Penilaian$"),
+    ],
+    23: [
+        ("Evaluasi Keberhasilan Studi Mahasiswa", r"^Evaluasi Keberhasilan Studi"),
+    ],
+    24: [
+        ("Putus Studi", r"^Putus Studi$"),
+    ],
+    25: [
+        ("Predikat Kelulusan", r"^Predikat Kelulusan$"),
+        ("Kelulusan Studi", r"^Kelulusan Studi$"),
+        ("Bukti Tanda Kelulusan", r"^Bukti Tanda Kelulusan$"),
+    ],
+}
+
+
 def chunk_regulation_page(text: str, page_num: int) -> list[ChunkModel]:
     """Chunk regulation page by article or distinct topic."""
     chunks: list[ChunkModel] = []
-    lines = text.splitlines()
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
 
-    # Split paragraphs by double newline
-    raw_paras = [p.strip() for p in text.split("\n\n") if p.strip()]
+    headings = REGULATION_HEADINGS_MAP.get(page_num, [])
+    heading_indices: list[tuple[int, str]] = []
 
-    # If page has multiple distinct sections, split into topics
-    topic_header = "Regulasi Akademik"
-    current_topic_text: list[str] = []
-    seq = 1
+    for h_title, h_pat in headings:
+        for idx, line in enumerate(lines):
+            if re.search(h_pat, line, re.IGNORECASE):
+                if not any(hi[0] == idx for hi in heading_indices):
+                    heading_indices.append((idx, h_title))
+                    break
 
-    for para in raw_paras:
-        first_line = para.splitlines()[0].strip()
-        # Check if paragraph begins with a clear topic heading
-        if (
-            len(first_line) < 50
-            and re.match(
-                r"^(BAB\b|PASAL\b|Ketentuan\b|Kurikulum\b|Semester\b|Kegiatan\b|Pelaksanaan\b|Jadwal\b|Waktu\b|Kehadiran\b|Evaluasi\b|Beban Belajar\b|Masa Belajar\b|Pendaftaran\b|KRS Online\b|Ujian Akhir\b|Pelaksanaan UAS\b|Cuti Akademik\b|Penyusunan Tugas\b|Ujian Tugas\b|Pindah Studi\b|Sistem Evaluasi\b|Sistem Penilaian\b|Putus Studi\b|Predikat Kelulusan\b|Kelulusan Studi\b)",
-                first_line,
-                re.IGNORECASE,
-            )
-            and not re.match(r"^(\(\d+\)|\d+\.)", first_line)
-        ):
-            if current_topic_text:
-                full_konten = "\n\n".join(current_topic_text)
-                chunks.append(
-                    ChunkModel(
-                        id=f"aturan-{page_num:02d}-{seq:02d}",
-                        konten=full_konten,
-                        halaman=page_num,
-                        bagian="Regulasi",
-                        jenis_konten="aturan",
-                        topik=topic_header,
-                    )
-                )
-                seq += 1
-                current_topic_text = []
+    heading_indices.sort(key=lambda x: x[0])
 
-            topic_header = first_line
-
-        current_topic_text.append(para)
-
-    if current_topic_text:
-        full_konten = "\n\n".join(current_topic_text)
+    if not heading_indices:
+        # Fallback to single chunk if no known headings matched
         chunks.append(
             ChunkModel(
-                id=f"aturan-{page_num:02d}-{seq:02d}",
-                konten=full_konten,
+                id=f"aturan-{page_num:02d}-01",
+                konten="\n\n".join(lines),
                 halaman=page_num,
                 bagian="Regulasi",
                 jenis_konten="aturan",
-                topik=topic_header,
+                topik="Regulasi Akademik",
             )
         )
+        return chunks
+
+    seq = 1
+    # Check if lines exist before first heading
+    if heading_indices[0][0] > 0:
+        pre_text = "\n\n".join(lines[:heading_indices[0][0]]).strip()
+        if pre_text:
+            chunks.append(
+                ChunkModel(
+                    id=f"aturan-{page_num:02d}-{seq:02d}",
+                    konten=pre_text,
+                    halaman=page_num,
+                    bagian="Regulasi",
+                    jenis_konten="aturan",
+                    topik="Regulasi Akademik",
+                )
+            )
+            seq += 1
+
+    for i, (start_idx, title) in enumerate(heading_indices):
+        end_idx = heading_indices[i + 1][0] if i + 1 < len(heading_indices) else len(lines)
+        topic_lines = lines[start_idx:end_idx]
+        topic_text = "\n\n".join(topic_lines).strip()
+        if topic_text:
+            chunks.append(
+                ChunkModel(
+                    id=f"aturan-{page_num:02d}-{seq:02d}",
+                    konten=topic_text,
+                    halaman=page_num,
+                    bagian="Regulasi",
+                    jenis_konten="aturan",
+                    topik=title,
+                )
+            )
+            seq += 1
 
     return chunks
 
@@ -345,27 +409,43 @@ def chunk_curriculum_page(
         if m:
             code = m.group(1)
 
+            # SKS detection (range up to 24 SKS, e.g. for Magang/PKL 20 SKS)
+            sks: Optional[int] = None
+            sks_m = re.search(r"\b(\d{1,2})\s*$", line)
+            if sks_m and int(sks_m.group(1)) <= 24:
+                sks = int(sks_m.group(1))
+            elif i + 1 < len(lines) and re.match(r"^\d{1,2}$", lines[i + 1]) and int(lines[i + 1]) <= 24:
+                sks = int(lines[i + 1])
+            elif i + 2 < len(lines) and re.match(r"^\d{1,2}$", lines[i + 2]) and int(lines[i + 2]) <= 24:
+                sks = int(lines[i + 2])
+            elif i > 0 and re.match(r"^\d{1,2}$", lines[i - 1]) and int(lines[i - 1]) <= 24:
+                sks = int(lines[i - 1])
+
             # Indonesian Name (previous line if valid)
+            raw_prev = lines[i - 1] if i > 0 else ""
+            if re.match(r"^\d{1,2}$", raw_prev) and i > 1:
+                raw_prev = lines[i - 2]
+
+            # Check if raw_prev ends with SKS number (e.g. "Natural Language Processing 3")
+            trailing_num_m = re.search(r"^(.*?)\s+(\d{1,2})$", raw_prev)
+            if trailing_num_m:
+                num_val = int(trailing_num_m.group(2))
+                if sks is None and num_val <= 24:
+                    sks = num_val
+                    raw_prev = trailing_num_m.group(1).strip()
+                elif sks == num_val:
+                    raw_prev = trailing_num_m.group(1).strip()
+
             nama_id = (
-                lines[i - 1]
-                if i > 0
-                and not code_pattern.search(lines[i - 1])
-                and "Semester" not in lines[i - 1]
-                and "Program Studi" not in lines[i - 1]
+                raw_prev
+                if (
+                    raw_prev
+                    and not code_pattern.search(raw_prev)
+                    and "Semester" not in raw_prev
+                    and "Program Studi" not in raw_prev
+                )
                 else ""
             )
-
-            # SKS detection
-            sks: Optional[int] = None
-            sks_m = re.search(r"\b([1-6])\s*$", line)
-            if sks_m:
-                sks = int(sks_m.group(1))
-            elif i + 1 < len(lines) and re.match(r"^[1-6]$", lines[i + 1]):
-                sks = int(lines[i + 1])
-            elif i + 2 < len(lines) and re.match(r"^[1-6]$", lines[i + 2]):
-                sks = int(lines[i + 2])
-            elif i > 0 and re.match(r"^[1-6]$", lines[i - 1]):
-                sks = int(lines[i - 1])
 
             # English Name
             nama_en = line.replace(code, "").strip()
@@ -376,7 +456,7 @@ def chunk_curriculum_page(
                 and i + 1 < len(lines)
                 and not code_pattern.search(lines[i + 1])
                 and "Semester" not in lines[i + 1]
-                and not re.match(r"^[1-6]$", lines[i + 1])
+                and not re.match(r"^\d{1,2}$", lines[i + 1])
             ):
                 nama_en = lines[i + 1]
 
