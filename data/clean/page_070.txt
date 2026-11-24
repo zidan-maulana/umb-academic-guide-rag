@@ -1,0 +1,76 @@
+Program Studi Sistem Informasi
+Semester 4
+Kewirausahaan
+U002500002 Entrepreneurship 3
+Pemrograman Berorientasi Objek
+W182500017 Object Oriented Programming 3
+Keamanan Cyber
+W182500019 Cyber Security 3
+Proses Mining
+W182500021 Process Mining 3
+Pemrograman Web
+W182500020 Web Programming 3
+Interaksi Manusia dan Komputer
+W182500022 Human Computer Interaction 3
+Machine Learning
+W182500023 3
+Machine Learning
+Kewarganegaraan
+K002500008 2
+Citizenship
+Semester 5
+Analitik Data
+W182500015 3
+Data Analytic
+Pemrograman Web Enterprise
+W182500024 3
+Programming Web Enterprise
+Business Inteligence
+W182500025 3
+Business Inteligence
+Arsitektur Enterprise
+W182500029 3
+Enterprise Architecture
+Kerja Praktek
+W182500031 3
+Internship
+Pemrograman Mobile
+W182500033 3
+Mobile Programming
+Etik Mercu Buana dan Pendidikan Anti Korupsi
+U002500001 2
+Mercu Buana Ethics and Anti-Corruption Education
+Metodologi Penelitian
+W182500001 4
+Research Methodology
+Semester 6
+Analisis Media Sosial
+W182500027 3
+Social Media Analysis
+Transformasi Digital
+W182500030 3
+Transformation Digital
+Sistem Informasi Geografis
+W182500032 3
+Geographic Information Systems
+Pengujian Perangkat Lunak dan Jaminan Kualitas
+W182500034 3
+Software Testing and Quality Assurance
+Data Warehouse dan Big Data
+W182500035 3
+Data Warehouse and Big Data
+Manajemen Proyek Sistem Informasi
+W182500036 3
+Information System Project Management
+F062500003 Generative AI 3
+Generative AI
+W182500028 Analisis dan Visualisasi Data 3
+Data Analysis and Visualization
+3
+Semester 7
+W182500037 Capstone Project 5
+Capstone Project
+Semester 8
+Tugas Akhir
+W182500002 6
+Final Project

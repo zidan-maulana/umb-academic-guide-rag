@@ -1,0 +1,76 @@
+Program Studi Teknik Sipil
+Semester 4
+Praktikum Mekanika Fluida Dan Hidrolika
+W112500025 Fluid And Hydraulic Mechanics Laboratory 1
+Mekanika Fluida Dan Hidrolika
+W112500024 Fluid And Hydraulic Mechanics 2
+Praktikum Beton
+W112500023 Concrete Laboratory 1
+Struktur Beton
+W112500022 Concrete Structure 4
+Aljabar Linear
+W112500021 Linear Algebra 3
+Praktikum Perancangan Perkerasan Jalan
+W112500020 1
+Road Pavement Laboratory
+Perancangan Perkerasan Jalan
+W112500019 2
+Road Pavement Design
+Estimasi Biaya Proyek & Rekayasa Ekonomi
+W112500028 3
+Project Cost Estimation And Engineering Economic
+Dinamika Struktur Dan Gempa
+W112500027 3
+Structural And Earthquake Dynamics
+Rekayasa Pondasi 1
+W112500026 2
+Foundation Engineering 1
+Semester 5
+Teknik Pelaksanaan Dan Pengendalian Proyek Konstruksi
+W112500030 3
+Construction Methods And Project Control
+Rekayasa Pondasi 2
+W112500029 3
+Foundation Structure 2
+Metode Numerik
+W112500032 3
+Numerical Method
+Pancasila
+K002500007 2
+Pancasila (National Ideology)
+Rekayasa Hidrologi (TB)
+W112500033 3
+Hydrology Engineering
+Perancangan Infrastruktur Jalan (TB)
+W112500034 4
+Road Infrastructure Design
+Bahasa Indonesia
+K002500009 2
+Indonesian Language
+Pengantar Bim (P)
+W112500031 2
+Introduction To Bim
+Semester 6
+W112500035 Perancangan Gedung Tahan Gempa (TB) 4
+Earthquake-Resistant Building Design
+Pendidikan Agama Islam
+K002500001 2
+Islamic Religious Education
+Pendidikan Agama Protestan
+K002500002 2
+Protestant Religious Education
+Pendidikan Agama Khatolik
+K002500003 2
+Catholic Religious Education
+Pendidikan Agama Hindu
+K002500005 2
+Hindu Religious Education
+Pendidikan Agama Konghucu
+K002500006 2
+Confucianism Religious Education
+Teknik Pengolahan Air Bersih Dan Air Limbah
+P112510001 3
+Water And Wastewater Treatment
+Hidrologi Terapan
+P112510002 3
+Applied Hydrology

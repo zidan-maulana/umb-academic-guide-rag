@@ -1,0 +1,87 @@
+Program Studi Teknik Mesin
+Semester 1
+Matematika 1
+F022500001 Mathematics 1 3
+Pendidikan Agama Islam
+K002500001 Islamic Religious Education 2
+Kewarganegaraan
+K002500008 Citizenship 2
+Kimia Dasar
+F022500002 Basic Chemistry 3
+Fisika Dasar 1
+F002500003 Basic Physics 1 3
+Pendidikan Agama Protestan
+K002500002 Protestant Religious Education 2
+Pendidikan Agama Khatolik
+K002500003 Catholic Religious Education 2
+Pendidikan Agama Budha
+K002500004 2
+Buddhist Religious Education
+Ilmu Hayat
+W132500001 2
+Life Sciences
+Pendidikan Agama Hindu
+K002500005 2
+Hindu Religious Education
+Gambar Mesin
+W132500002 3
+Engineering Drawing
+Etik Mercu Buana Dan Pendidikan Anti Korupsi
+U002500001 2
+Mercu Buana Ethics And Anti-Corruption Education
+Pendidikan Agama Konghucu
+K002500006 2
+Confucianism Religious Education
+Semester 2
+Mekanika Struktur
+W132500005 3
+Structural Mechanics
+Bahasa Inggris
+U002500004 2
+English
+Praktikum Fisika Dasar 1
+F022500004 1
+Physics Practical 1
+Matematika 2
+F022500005 3
+Mathematics 2
+Fisika Dasar 2
+F002500006 3
+Basic Physics 2
+Kimia Dasar 2
+W132500003 2
+Basic Chemistry 2
+Statistik Dan Probabilitas
+W132500004 3
+Statistics And Probability
+Pemodelan Computer Aided Design (Cad)
+W132500006 3
+Computer Aided Design (Cad) Modelling
+Semester 3
+Mekanika Kekuatan Bahan
+W132500010 3
+Mechanics Of Materials
+Praktikum Fisika Dasar 2
+F022500007 1
+Physics Practical 2
+Kewirausahaan
+U002500002 3
+Entrepreneurship
+Pemrograman Komputasi Dan Algoritma Ai
+W132500013 3
+Computational Programming And Ai Algorithms
+Mekanika Fluida
+W132500012 2
+Fluid Mechanics
+Matematika 3
+W132500007 3
+Mathematics 3
+Material Teknik
+W132500008 2
+Engineering Materials
+Praktikum Material Teknik
+W132500009 1
+Engineering Materials Laboratory
+Termodinamika 1
+W132500011 3
+Thermodynamics 1

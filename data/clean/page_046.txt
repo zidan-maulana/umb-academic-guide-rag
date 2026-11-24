@@ -1,0 +1,68 @@
+Program Studi Teknik Sipil
+Prasarana Transportasi
+P112520006 Transportation Infrastructure 3
+Struktur Kayu
+P112530007 Timber Structure 3
+Beton Prategang
+P112530008 Prestressed Concrete 3
+Sistem Manajemen Mutu Konstruksi
+P112540012 Construction Quality Management System 3
+Aspek Hukum Dalam Pembangunan
+P112540013 Legal Aspect In Development 3
+Metoda Perbaikan Tanah
+P112550014 Soil Improvement Method 3
+Lereng Dan Penanganan Longsoran
+P112550015 Slopes And Landslide Mitigation 3
+Kewirausahaan Lanjutan
+U002500003 3
+Advanced Entrepreneurship
+Rekayasa Jalan Rel
+W112500036 2
+Railway Engineering
+Rekayasa Lalu Lintas (TB)
+W112500037 3
+Traffic Engineering
+Statistika
+W112500038 3
+Statistics
+Desain Sistem Irigasi Modern
+W112500039 2
+Modern Irrigation Systems Design
+Rekayasa Infrastruktur Lingkungan
+W112500040 2
+Environmental Infrastructure Engineering
+Semester 7
+Perancangan Lapangan Terbang
+P112520005 3
+Airport Design
+Rekayasa Sungai
+P112510003 3
+River Engineering
+Sistem Angkutan Umum
+P112520004 3
+Public Transportation System
+Perancangan Bangunan Air (TB)
+W112500041 4
+Hydraulic Structures Design
+Metode Penelitian
+W112500042 2
+Research Methods
+Kerja Praktik
+W112500043 3
+Internship
+Rekayasa Geoteknik Gempa
+P112550016 3
+Earthquake Geotechnical Engineering
+Manajemen Risiko Proyek Konstruksi
+P112540011 3
+Construction Project Risk Management
+Manajemen Komunikasi Proyek
+P112540010 3
+Project Communication Management
+Struktur Jembatan
+P112530009 3
+Bridge Structure
+Semester 8
+Tugas Akhir
+W112500044 6
+Final Project

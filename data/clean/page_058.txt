@@ -1,0 +1,58 @@
+Program Studi Teknik Elektro
+Semester 6
+Sistem Komunikasi Bergerak
+P142500001 Mobile Communication Systems 3
+Gelombang Mikro Dan Teknologi Radar
+P1425100004 Microwave Engineering And Radar Technology 3
+Operasi Dan Kendali Sistem Tenaga Listrik
+P142520006 Power System Operation And Control 3
+Pengolahan Citra Dan Computer Vision
+P142530008 Image Processing And Computer Vision 3
+Kewirausahaan Lanjutan
+U002500003 Advanced Entrepreneurship 3
+Elektronika Daya
+W142500029 Power Electronics 3
+Otomasi Industri Dan Internet Of Things
+W142500030 Industrial Automation And Internet Of Things 3
+Metodologi Penelitian
+W142500031 Research Methodology 3
+Proyek Teknik Elektro 1
+W142500032 Electrical Engineering Project 1 2
+Transmisi Dan Propagasi Sinyal
+W142500033 Signal Transmision And Propagation 3
+Praktikum Otomasi Industri Dan Internet Of Things
+W142500034 Industrial Automation And Internet Of Things Laboratory 1
+Kewarganegaraan
+K002500008 Citizenship 2
+Semester 7
+Aiot Dan Sistem Siber-Fisik
+P142530007 3
+Aiot And Cyber-Physical Systems
+Proyek Teknik Elektro 2
+W142500036 3
+Electrical Engineering Project 2
+Antena Dan Propagasi
+W142500037 3
+Antennas And Propagation
+Robotika Dan Sistem Otonom
+W142500038 3
+Robotics And Autonomous Systems
+Energi Terbarukan Dan Smart Grid
+W142500039 3
+Renewable Energy And Smart Grid
+Rekayasa Trafik
+P142500002 3
+Traffic Engineering
+Komunikasi Nirkabel Dan Radio Kognitif
+P142510003 3
+Wireless Communication And Conginitive Radio
+Sistem Manajemen Energi Dan Mikrogrid
+P142520005 3
+Energy Management Systems (Ems) And Microgrid
+Kerja Praktik
+W142500035 2
+Internship
+Semester 8
+Tugas Akhir
+W142500040 6
+Final Project

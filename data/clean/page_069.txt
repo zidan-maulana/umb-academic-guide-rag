@@ -1,0 +1,91 @@
+Program Studi Sistem Informasi
+Semester 1
+Fundamental Jaringan
+W182500005 Networking Fundamental 3
+Konsep Sistem Basis Data
+3
+W182500006 Core Database Systems Concepts
+Arsitektur dan Organisasi
+3
+W182500007 Architecture and Organization
+Matematika dan Statistik Dasar
+3
+F062500001 Mathematical and Statistical Foundation
+Bahasa Inggris
+2
+U002500004 English
+Matematika Bisnis
+3
+W182500003 Business Mathematics
+Konsep Dasar Pemrograman
+3
+W182500004 Fundamental Programming Concepts
+Semester 2
+Statistik dan Probabilitas
+3
+W182500010
+Statistic and Probability
+Sistem Informasi
+3
+W182500011
+Information System
+Fundamental Struktur Data dan Algoritma
+3
+W182500012
+Foundational Data Structures and Algorithm
+Manajemen Data
+3
+W182500013
+Data Management
+Audit Sistem Informasi dan Manajemen Resiko IT
+3
+W182500018
+IT Risk Manajemen and Audit Information System
+Pancasila
+2
+K002500007
+Pancasila (National Ideology)
+Manajemen Proses Bisnis
+3
+W182500009
+Business Process Management
+Semester 3
+Pendidikan Agama Khatolik 2
+K002500003
+Catholic Religious Education
+Pendidikan Agama Budha 2
+K002500004
+Buddhist Religious Education
+Pendidikan Agama Hindu 2
+K002500005
+Hindu Religious Education
+Pendidikan Agama Konghucu 2
+K002500006
+Confucianism Religious Education
+Bahasa Indonesia 2
+K002500009
+Indonesian Language
+Rekayasa Perangkat Lunak 3
+F062500002
+Software Engineering
+Bisnis Digital 3
+W182500026
+Business Digital
+Analisis dan Desain Berorientasi Objek 3
+W182500008
+Object Oriented Analysis and Design
+Manajemen Perubahan Teknologi Informasi 3
+W182500014
+IT Change Management
+Aljabar Linier 3
+W182500016
+Linier Algebra
+Etika, Sosial dan Profesi 3
+F062500004
+Society, Ethics, and The Profession
+Pendidikan Agama Islam 2
+K002500001
+Islamic Religious Education
+Pendidikan Agama Protestan 2
+K002500002
+Protestant Religious Education

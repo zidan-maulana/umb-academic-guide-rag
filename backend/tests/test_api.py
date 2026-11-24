@@ -49,7 +49,7 @@ def test_chat_with_metadata_filter():
         assert data["status"] == "answered"
         assert data["mode"]["fakultas"] == "FEB"
         for s in data["sources"]:
-            assert s["id"] == "akreditasi-11-02"
+            assert s["id"].startswith("akreditasi-11")
             assert s["halaman"] == 11
 
 

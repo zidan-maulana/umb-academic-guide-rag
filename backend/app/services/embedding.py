@@ -1,10 +1,15 @@
 """Layanan pembuatan representasi vektor teks menggunakan Gemini API (docs/sdd.md)."""
 
+import logging
+import re
+import time
 from typing import List, Optional, Tuple
 from google import genai
 from google.genai import types
 
 from backend.app.config import settings
+
+logger = logging.getLogger(__name__)
 
 # Client singleton untuk menghemat alokasi memori
 _client: Optional[genai.Client] = None
@@ -69,10 +74,73 @@ def embed_document(text: str, title: Optional[str] = None) -> List[float]:
 
 def embed_documents_batch(
     items: List[Tuple[str, Optional[str]]],
+    max_retries: int = 6,
+    initial_delay: float = 15.0,
 ) -> List[List[float]]:
-    """Hasilkan vektor untuk sekumpulan chunk dokumen (dipakai saat ingest)."""
-    results: List[List[float]] = []
-    for text, title in items:
-        vector = embed_document(text=text, title=title)
-        results.append(vector)
-    return results
+    """Hasilkan vektor dense untuk sekumpulan chunk dokumen dalam satu panggilan API batch dengan retry backoff."""
+    if not items:
+        return []
+
+    client = get_embedding_client()
+    formatted_contents = [
+        format_document_content(text=text, title=title)
+        for text, title in items
+    ]
+    model = settings.embedding_model or "gemini-embedding-2"
+    dim = settings.embedding_dim or 768
+
+    delay = initial_delay
+    for attempt in range(1, max_retries + 1):
+        try:
+            response = client.models.embed_content(
+                model=model,
+                contents=formatted_contents,
+                config=types.EmbedContentConfig(output_dimensionality=dim),
+            )
+            return [list(emb.values) for emb in response.embeddings]
+        except Exception as exc:
+            err_msg = str(exc)
+            is_rate_limit = (
+                "429" in err_msg
+                or "RESOURCE_EXHAUSTED" in err_msg
+                or "rate" in err_msg.lower()
+            )
+            if is_rate_limit and attempt < max_retries:
+                # Cek jika Google memberikan rekomendasi retryDelay spesifik
+                suggested_delay = delay
+                retry_match = re.search(r"retryDelay':\s*'(\d+)s'", err_msg)
+                if retry_match:
+                    recom = float(retry_match.group(1))
+                    if recom > 120.0:
+                        raise RuntimeError(
+                            f"Batas kuota harian (Daily Quota 1.000 request/hari) Google AI Studio untuk API key ini telah habis. "
+                            f"Google meminta waktu tunggu {recom / 3600:.1f} jam. "
+                            f"Silakan gunakan API key dari akun Google lain di file .env untuk melanjutkan sisa chunk."
+                        )
+                    suggested_delay = max(delay, recom + 2.0)
+
+                logger.warning(
+                    "Rate limit terdeteksi pada panggilan batch. Menunggu %.1f detik sebelum mencoba ulang (percobaan %d/%d)...",
+                    suggested_delay,
+                    attempt,
+                    max_retries,
+                )
+                time.sleep(suggested_delay)
+                delay *= 1.5
+            elif attempt < max_retries:
+                logger.warning(
+                    "Error transient API: %s. Mencoba ulang dalam %.1f detik (percobaan %d/%d)...",
+                    err_msg,
+                    delay,
+                    attempt,
+                    max_retries,
+                )
+                time.sleep(delay)
+                delay *= 1.5
+            else:
+                logger.error(
+                    "Gagal melakukan batch embedding setelah %d percobaan: %s",
+                    max_retries,
+                    err_msg,
+                )
+                raise

@@ -1,0 +1,58 @@
+Program Studi Teknik Elektro
+Semester 1
+Matematika 1
+F022500001 Mathematics 1 3
+Rangkaian Listrik 1
+W142500002 Electric Circuit 1 3
+Pendidikan Agama Hindu
+K002500005 Hindu Religious Education 2
+Kimia Dasar
+F022500002 Basic Chemistry 3
+Fisika Dasar 1
+F022500003 Basic Physics 1 3
+Aljabar Linier
+W142500001 Linear Algebra 3
+Praktikum Fisika Dasar 1
+F022500004 1
+Physics Practical 1
+Pendidikan Agama Khatolik
+K002500003 2
+Catholic Religious Education
+Pendidikan Agama Budha
+K002500004 2
+Buddhist Religious Education
+Pendidikan Agama Konghucu
+K002500006 2
+Confucianism Religious Education
+Bahasa Inggris
+U002500004 2
+English
+Pendidikan Agama Islam
+K002500001 2
+Islamic Religious Education
+Pendidikan Agama Protestan
+K002500002 2
+Protestant Religious Education
+Semester 2
+W142500005 Praktikum Rangkaian Listrik 1
+Electric Circuit Laboratory
+W142500008 Pemrograman Komputer 1 3
+Computer Programming 1
+Rangkaian Listrik 2
+W142500004 3
+Electric Circuit 2
+Persamaan Diferensial Dan Variabel Kompleks
+W142500011 3
+Differential Equation And Complex Variable
+Matematika 2
+F022500005 3
+Mathematics 2
+Dasar Elektronika
+W142500006 3
+Basic Of Electronics
+Praktikum Dasar Elektronika
+W142500007 1
+Basic Of Electronics Laboratory
+Fisika Dasar 2
+F022500006 3
+Basic Physics 2
