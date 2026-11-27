@@ -77,7 +77,13 @@ def embed_documents_batch(
     max_retries: int = 6,
     initial_delay: float = 15.0,
 ) -> List[List[float]]:
-    """Hasilkan vektor dense untuk sekumpulan chunk dokumen dalam satu panggilan API batch dengan retry backoff."""
+    """Hasilkan vektor dense untuk sekumpulan chunk dokumen dalam satu panggilan API batch dengan retry backoff.
+
+    PENTING: pada gemini-embedding-2, list string yang dikirim langsung ke `contents`
+    diperlakukan sebagai SATU Content dengan banyak part, sehingga hasilnya hanya
+    satu embedding gabungan. Agar tiap teks mendapat embedding sendiri, setiap teks
+    dibungkus dalam objek `types.Content` terpisah.
+    """
     if not items:
         return []
 
@@ -85,6 +91,10 @@ def embed_documents_batch(
     formatted_contents = [
         format_document_content(text=text, title=title)
         for text, title in items
+    ]
+    # Satu Content per teks -> satu embedding per teks (urutan sama dengan input)
+    content_objects = [
+        types.Content(parts=[types.Part(text=t)]) for t in formatted_contents
     ]
     model = settings.embedding_model or "gemini-embedding-2"
     dim = settings.embedding_dim or 768
@@ -94,10 +104,23 @@ def embed_documents_batch(
         try:
             response = client.models.embed_content(
                 model=model,
-                contents=formatted_contents,
+                contents=content_objects,
                 config=types.EmbedContentConfig(output_dimensionality=dim),
             )
-            return [list(emb.values) for emb in response.embeddings]
+            embeddings = response.embeddings or []
+            vectors = [list(emb.values) for emb in embeddings if emb.values]
+
+            # Validasi kardinalitas: jangan pernah diam-diam kehilangan chunk
+            if len(vectors) != len(formatted_contents):
+                raise ValueError(
+                    f"Embedding mengembalikan {len(vectors)} vektor "
+                    f"untuk {len(formatted_contents)} input "
+                    f"(model={model}). Periksa format contents."
+                )
+            return vectors
+        except ValueError:
+            # Error validasi/logika: retry tidak akan membantu, gagal cepat
+            raise
         except Exception as exc:
             err_msg = str(exc)
             is_rate_limit = (

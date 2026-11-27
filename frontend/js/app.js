@@ -38,6 +38,37 @@ export async function sendMessage(raw, { fromRetry = false } = {}) {
 
   els.input.value = "";
   resizeInput();
+
+  // Intersepsi sapaan/salam umum agar direspons ramah tanpa beban API/fallback kaku
+  const GREETING_REGEX = /^(halo|hallo|hai|hi|hey|hei|p|assalamu\s*['’]?alaikum|assalamualaikum|selamat\s+(pagi|siang|sore|malam))\b[!?.]*$/i;
+  if (GREETING_REGEX.test(question.trim())) {
+    loading = true;
+    setComposerEnabled(false, loading);
+    const stopTyping = showTyping();
+
+    window.setTimeout(() => {
+      stopTyping();
+      const botGreeting = {
+        role: "bot",
+        text: "Halo! Saya adalah asisten resmi Panduan Akademik Universitas Mercu Buana (UMB) 2025/2026. Ada yang bisa saya bantu seputar aturan perkuliahan, batas SKS, kurikulum prodi, atau akreditasi kampus?",
+        ts: Date.now(),
+        kind: "normal",
+        pages: [],
+      };
+      history.push(botGreeting);
+      saveHistory(history);
+
+      const view = renderMessage(botGreeting, { animateText: true, onRetry: handleRetry });
+      const cancel = typewriter(view.content, botGreeting.text, () => {
+        view.bubble.removeEventListener("click", cancel);
+        loading = false;
+        setComposerEnabled(true, loading);
+      });
+      view.bubble.addEventListener("click", cancel);
+    }, 400);
+    return;
+  }
+
   loading = true;
   setComposerEnabled(false, loading);
   const stopTyping = showTyping();

@@ -11,7 +11,7 @@ export const MAX_QUESTION = 500;
 
 export const SUGGESTIONS = [
   { q: "Berapa SKS maksimal per semester?", icon: "sks" },
-  { q: "Siapa dosen pembimbing akademik?", icon: "dosen" },
+  { q: "Berikan informasi dari matakuliah Capstone Project", icon: "kurikulum" },
   { q: "Apa syarat mengambil skripsi?", icon: "skripsi" },
   { q: "Apa akreditasi Teknik Informatika?", icon: "akreditasi" },
   { q: "Berapa lama batas waktu studi program sarjana?", icon: "waktu" },
@@ -20,7 +20,7 @@ export const SUGGESTIONS = [
 
 export const ICONS = {
   sks: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 7h4v4H7V7Zm6 0h4v4h-4V7ZM7 13h4v4H7v-4Zm6 0h4v4h-4v-4Z" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>',
-  dosen: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M5.5 18.5c1.2-3 3.5-4.5 6.5-4.5s5.3 1.5 6.5 4.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>',
+  kurikulum: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 6.5C10.5 5.3 8 4.8 4.5 5v12.5c3.5-.2 6 .3 7.5 1.5 1.5-1.2 4-1.7 7.5-1.5V5c-3.5-.2-6 .3-7.5 1.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 6.5V19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>',
   skripsi: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 4.5h7l4 4V19.5H7v-15Z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M14 4.5V9h4.5M9.5 13h5M9.5 16h3.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>',
   akreditasi: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 4.5 14.2 9l4.8.6-3.5 3.3.9 4.7L12 15.7 7.6 17.6l.9-4.7L5 9.6 9.8 9 12 4.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>',
   waktu: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="7.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 8v4.5l3 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>',
