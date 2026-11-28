@@ -1,0 +1,214 @@
+.msg-row {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--space-3);
+}
+
+.msg-row--user {
+  justify-content: flex-end;
+}
+
+.msg-row--bot {
+  justify-content: flex-start;
+}
+
+.msg-avatar {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: var(--grad-hero);
+  color: #FFFFFF;
+}
+
+.msg-col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-width: min(85%, 640px);
+  min-width: 0;
+}
+
+.msg-row--user .msg-col {
+  align-items: flex-end;
+  max-width: min(80%, 580px);
+}
+
+.bubble {
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-lg);
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
+.bubble--user {
+  background: linear-gradient(135deg, var(--primary), var(--primary-hover));
+  color: var(--on-primary);
+  border-bottom-right-radius: var(--radius-xs);
+}
+
+.bubble--bot {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  color: var(--text);
+  border-bottom-left-radius: var(--radius-xs);
+}
+
+.bubble--fallback {
+  background-color: var(--accent-soft);
+  border: 1px solid var(--accent-border);
+  border-left: 3px solid var(--accent);
+}
+
+.bubble--error {
+  background-color: var(--danger-soft);
+  border: 1px solid var(--danger-border);
+  border-left: 3px solid var(--danger);
+}
+
+.bubble__body {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+}
+
+.bubble__lead-icon {
+  margin-top: 2px;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.bubble--fallback .bubble__lead-icon {
+  color: var(--text);
+}
+
+.bubble--error .bubble__lead-icon {
+  color: var(--danger);
+}
+
+.bubble__content {
+  min-width: 0;
+  flex: 1;
+}
+
+.bubble__content p + p,
+.bubble__content p + ul,
+.bubble__content p + ol,
+.bubble__content ul + p,
+.bubble__content ol + p {
+  margin-top: var(--space-2);
+}
+
+.bubble__content ul,
+.bubble__content ol {
+  padding-left: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.bubble__content strong {
+  font-weight: 600;
+}
+
+.bubble__clarify {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.bubble__clarify-btn {
+  min-height: var(--tap-min);
+  padding: 0 var(--space-3);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background-color: var(--surface-2);
+  color: var(--text);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  transition: border-color var(--dur-fast) var(--ease), background-color var(--dur-fast) var(--ease);
+}
+
+.bubble__clarify-btn:hover {
+  border-color: var(--primary);
+  background-color: var(--primary-soft);
+}
+
+.bubble__retry {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-min);
+  margin-top: var(--space-2);
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--danger-border);
+  background-color: var(--surface);
+  color: var(--danger);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.bubble__retry:hover {
+  background-color: var(--danger-soft);
+}
+
+.bubble__meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  padding-inline: var(--space-1);
+}
+
+.bubble__mode {
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-xs);
+  background-color: var(--surface-2);
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.copy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  min-height: 32px;
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-xs);
+  color: var(--text-muted);
+  opacity: 0;
+  transition: opacity var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease), background-color var(--dur-fast) var(--ease);
+}
+
+.msg-row--bot:hover .copy-btn,
+.msg-row--bot:focus-within .copy-btn,
+.copy-btn.is-copied {
+  opacity: 1;
+}
+
+.copy-btn:hover {
+  background-color: var(--surface-2);
+  color: var(--text);
+}
+
+.copy-btn.is-copied {
+  color: var(--success);
+}
+
+@media (max-width: 639px) {
+  .msg-col,
+  .msg-row--user .msg-col {
+    max-width: 88%;
+  }
+
+  .copy-btn {
+    opacity: 1;
+    min-height: var(--tap-min);
+  }
+}

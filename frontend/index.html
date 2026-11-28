@@ -3,152 +3,231 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#2F3A8F" />
-    <meta name="description" content="Tanya jawab Panduan Akademik UMB 2025/2026." />
-    <title>Academic Guide</title>
+    <meta name="theme-color" content="#3D6BC9" />
+    <meta
+      name="description"
+      content="Asisten tanya jawab Panduan Akademik Universitas Mercu Buana (UMB) Tahun Akademik 2025/2026 dengan rujukan halaman resmi."
+    />
+    <meta name="api-base-url" content="" />
+    <meta name="pdf-url" content="" />
+    <title>Academic Guide - Panduan Akademik UMB 2025/2026</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body>
-    <div class="app">
-      <div class="main-container">
-        <header class="header">
-          <div class="header-inner">
-            <div class="brand">
-              <span class="brand-mark" aria-hidden="true">
-                <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
-                  <path
-                    d="M5 6.5C5 5.67 5.67 5 6.5 5H12v14H6.5A1.5 1.5 0 0 1 5 17.5V6.5Z"
-                    fill="currentColor"
-                    opacity=".35"
-                  />
-                  <path
-                    d="M12 5h5.5C18.33 5 19 5.67 19 6.5v11a1.5 1.5 0 0 1-1.5 1.5H12V5Z"
-                    stroke="currentColor"
-                    stroke-width="1.6"
-                  />
-                  <path d="M12 5v14" stroke="currentColor" stroke-width="1.6" />
-                </svg>
-              </span>
-              <div class="brand-text">
-                <h1>Academic Guide</h1>
-                <p>Tanya apa saja soal panduan kampus</p>
-              </div>
-            </div>
-
-            <div class="header-actions" id="header-actions">
-              <button type="button" class="icon-btn" id="theme-toggle" aria-label="Ganti tema">
-                <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-                  <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8" />
-                  <path
-                    d="M12 3v2M12 19v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M3 12h2M19 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                    stroke-linecap="round"
-                  />
-                </svg>
-                <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-                  <path
-                    d="M16.5 13.2A6.5 6.5 0 0 1 10.8 5 7 7 0 1 0 19 14.2a6.4 6.4 0 0 1-2.5-1Z"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
-              <button type="button" class="icon-btn" id="clear-chat" aria-label="Hapus percakapan">
-                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-                  <path
-                    d="M5 7h14M10 7V5h4v2M8 7l1 12h6l1-12"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
-              <div class="clear-confirm" id="clear-confirm" hidden>
-                <span>Hapus semua?</span>
-                <button type="button" class="text-btn danger" id="confirm-yes">Ya</button>
-                <button type="button" class="text-btn" id="confirm-no">Batal</button>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        <main class="stage">
-          <div class="messages" id="messages" role="log" aria-live="polite" aria-relevant="additions">
-            <section class="welcome" id="welcome">
-              <div class="welcome-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
-                  <path
-                    d="M4.5 8.5 12 5l7.5 3.5L12 12 4.5 8.5Z"
-                    stroke="currentColor"
-                    stroke-width="1.6"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M6 10.2V16c0 .4.2.8.6 1L12 19.5 17.4 17c.4-.2.6-.6.6-1v-5.8"
-                    stroke="currentColor"
-                    stroke-width="1.6"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </div>
-              <h2>Halo! Mau cari info apa hari ini?</h2>
-              <p class="welcome-sub">
-                Aku bisa bantu cari info SKS, dosen, mata kuliah, dan aturan akademik dari buku
-                panduan.
-              </p>
-              <div class="chips" id="chips"></div>
-            </section>
-          </div>
-
-          <button type="button" class="jump-latest" id="jump-latest" hidden>
-            Ke pesan terbaru
-          </button>
-        </main>
-
-        <footer class="composer-wrap">
-          <form class="composer" id="composer">
-            <label class="sr-only" for="question-input">Pertanyaan</label>
-            <textarea
-              id="question-input"
-              name="question"
-              rows="1"
-              maxlength="500"
-              placeholder="Tanya sesuatu tentang panduan akademik…"
-              autocomplete="off"
-            ></textarea>
-            <button type="submit" class="send-btn" id="send-btn" aria-label="Kirim pertanyaan" disabled>
-              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
-                <path
-                  d="M5 12h12M13 6l6 6-6 6"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </button>
-          </form>
-          <p class="composer-hint" id="composer-hint">Enter untuk kirim · Shift+Enter baris baru</p>
-          <p class="disclaimer">
-            Jawaban berdasarkan buku panduan. Periksa kembali di sumber resmi untuk keputusan penting.
-          </p>
-        </footer>
-      </div>
+  <body data-active-scene="landing">
+    <div id="bg" class="bg-stage" aria-hidden="true">
+      <div class="bg-aurora"></div>
+      <div class="bg-stars"></div>
+      <div class="bg-noise"></div>
     </div>
 
-    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
-    <script type="module" src="js/app.js"></script>
+    <main id="landing" class="scene scene--landing">
+      <!-- Navbar -->
+      <div class="container navbar-wrap">
+        <header class="navbar">
+          <a href="#landing" class="brand" aria-label="Academic Guide Beranda">
+            <span class="brand__mark" aria-hidden="true">
+              <svg width="20" height="20"><use href="assets/icons/sprite.svg#icon-brand" /></svg>
+            </span>
+            <span class="brand__name">Academic Guide</span>
+          </a>
+          <button
+            type="button"
+            class="icon-btn"
+            id="landing-theme-toggle"
+            aria-label="Ganti tema"
+          >
+            <svg class="icon-sun" width="20" height="20" aria-hidden="true">
+              <use href="assets/icons/sprite.svg#icon-sun" />
+            </svg>
+            <svg class="icon-moon" width="20" height="20" aria-hidden="true">
+              <use href="assets/icons/sprite.svg#icon-moon" />
+            </svg>
+          </button>
+        </header>
+      </div>
+
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <h1 class="display-title hero__title">
+              Cari info kampus, tanpa <span class="accent-serif">bolak-balik</span> buku panduan.
+            </h1>
+            <p class="hero__sub">
+              Tanya soal SKS, aturan perkuliahan, mata kuliah, dan akreditasi. Jawaban disusun
+              langsung dari Panduan Akademik UMB 2025/2026 beserta nomor halaman sumbernya.
+            </p>
+            <div class="hero__actions">
+              <button type="button" class="btn btn--cta btn--cta-hero" id="hero-cta">
+                <span class="btn__label">Mulai Bertanya</span>
+                <svg class="btn__arrow" width="18" height="18" aria-hidden="true">
+                  <use href="assets/icons/sprite.svg#icon-arrow-right" />
+                </svg>
+              </button>
+              <a href="#scope" class="btn btn--ghost" id="hero-secondary">
+                <span>Lihat cakupan panduan</span>
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="assets/icons/sprite.svg#icon-arrow-down" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero__visual" aria-hidden="true">
+            <div class="hero__orb"></div>
+            <div class="hero__ring hero__ring--outer"></div>
+            <div class="hero__ring hero__ring--inner"></div>
+
+            <div class="preview-card">
+              <div class="preview-card__q">Berapa lama batas waktu studi program sarjana?</div>
+              <div class="preview-card__a">
+                <p>
+                  Masa studi program sarjana dirancang untuk 8 semester dan paling lama 14
+                  semester sesuai ketentuan akademik UMB.
+                </p>
+                <span class="preview-card__source">
+                  <svg width="13" height="13"><use href="assets/icons/sprite.svg#icon-doc" /></svg>
+                  Hal. 17
+                </span>
+              </div>
+            </div>
+
+            <div class="mini-pill mini-pill--top">
+              <svg width="14" height="14"><use href="assets/icons/sprite.svg#icon-doc" /></svg>
+              <span>Hal. 18 · Tata Tertib</span>
+            </div>
+            <div class="mini-pill mini-pill--bottom">
+              <svg width="14" height="14"><use href="assets/icons/sprite.svg#icon-akreditasi" /></svg>
+              <span>Hal. 11 · Akreditasi</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trust Strip -->
+      <section class="trust-strip" aria-label="Ringkasan keandalan sumber">
+        <div class="container">
+          <ul class="trust-strip__list">
+            <li class="trust-strip__item">
+              <svg width="16" height="16" aria-hidden="true">
+                <use href="assets/icons/sprite.svg#icon-doc" />
+              </svg>
+              <span>Jawaban disertai nomor halaman PDF</span>
+            </li>
+            <li class="trust-strip__item">
+              <svg width="16" height="16" aria-hidden="true">
+                <use href="assets/icons/sprite.svg#icon-book" />
+              </svg>
+              <span>Bersumber dari Panduan Akademik UMB 2025/2026</span>
+            </li>
+            <li class="trust-strip__item">
+              <svg width="16" height="16" aria-hidden="true">
+                <use href="assets/icons/sprite.svg#icon-info" />
+              </svg>
+              <span>Menolak menjawab bila topik tidak ada di buku</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Cakupan Panduan -->
+      <section id="scope" class="landing-section">
+        <div class="container scope-grid">
+          <div class="scope-lead reveal">
+            <h2 class="section-title">
+              Satu buku panduan, <span class="accent-serif">empat</span> bagian utama.
+            </h2>
+            <p>
+              Setiap pertanyaan dicocokkan ke potongan dokumen resmi (halaman 11 dan 14 sampai 98).
+              Jika informasi tidak tercantum di panduan, sistem menjawab jujur bahwa informasi tidak
+              ditemukan.
+            </p>
+          </div>
+          <ul class="scope-list">
+            <li class="scope-item reveal">
+              <span class="scope-item__tag">Regulasi</span>
+              <h3>Aturan Perkuliahan</h3>
+              <p>Batas SKS, masa studi, syarat kelulusan, cuti kuliah, dan sanksi akademik.</p>
+            </li>
+            <li class="scope-item reveal">
+              <span class="scope-item__tag">Kurikulum</span>
+              <h3>Daftar Mata Kuliah</h3>
+              <p>Kode mata kuliah, bobot SKS, dan sebaran semester per program studi.</p>
+            </li>
+            <li class="scope-item reveal">
+              <span class="scope-item__tag">Profil</span>
+              <h3>Visi dan Misi Fakultas</h3>
+              <p>Profil fakultas serta program studi di lingkungan Universitas Mercu Buana.</p>
+            </li>
+            <li class="scope-item reveal">
+              <span class="scope-item__tag">Akreditasi</span>
+              <h3>Status Akreditasi</h3>
+              <p>Peringkat akreditasi resmi program studi yang tercatat pada tabel halaman 11.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contoh Pertanyaan -->
+      <section class="landing-section" aria-labelledby="examples-heading">
+        <div class="container">
+          <div class="examples-head reveal">
+            <h2 id="examples-heading" class="section-title">Coba tanyakan ini</h2>
+            <p class="text-muted">Klik salah satu topik untuk langsung membuka chat.</p>
+          </div>
+          <div class="examples-chips reveal" id="landing-chips"></div>
+        </div>
+      </section>
+
+      <!-- CTA Penutup -->
+      <section class="landing-section">
+        <div class="container">
+          <div class="closing-band reveal">
+            <div class="closing-band__glow" aria-hidden="true"></div>
+            <div class="closing-band__copy">
+              <h2 class="section-title">Siap cari <span class="accent-serif">jawabanmu?</span></h2>
+              <p>
+                Ajukan pertanyaan spesifik tentang aturan kuliah, mata kuliah, atau akreditasi dan
+                periksa rujukan halamannya.
+              </p>
+            </div>
+            <button type="button" class="btn btn--cta" id="closing-cta">
+              <span class="btn__label">Mulai Bertanya</span>
+              <svg class="btn__arrow" width="18" height="18" aria-hidden="true">
+                <use href="assets/icons/sprite.svg#icon-arrow-right" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="landing-footer">
+        <div class="container">
+          <p>
+            Jawaban berdasarkan buku panduan. Periksa kembali di sumber resmi untuk keputusan
+            penting.
+          </p>
+        </div>
+      </footer>
+
+      <button type="button" class="floating-chat" id="floating-chat" aria-label="Buka layar chat">
+        <svg width="18" height="18" aria-hidden="true">
+          <use href="assets/icons/sprite.svg#icon-chat" />
+        </svg>
+        <span>Chat</span>
+      </button>
+    </main>
+
+    <section id="chat" class="scene scene--chat" hidden inert aria-hidden="true"></section>
+
+    <div id="toast-root" aria-live="polite" role="status"></div>
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,29 @@
+.scene {
+  position: relative;
+  z-index: var(--z-scene);
+}
+
+.scene[hidden] {
+  display: none;
+}
+
+.scene--landing {
+  min-height: 100dvh;
+}
+
+.scene--chat {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.scene--landing.is-leaving {
+  opacity: 0;
+  transform: scale(0.98);
+  filter: blur(4px);
+  transition:
+    opacity 350ms var(--ease-in-out),
+    transform 350ms var(--ease-in-out),
+    filter 350ms var(--ease-in-out);
+}

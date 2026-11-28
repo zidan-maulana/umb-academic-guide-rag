@@ -1,0 +1,62 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.composer__input:focus-visible {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .bg-aurora,
+  .bg-stars,
+  .mini-pill--top,
+  .mini-pill--bottom,
+  .welcome__orb,
+  .typing__dots span,
+  .btn__spinner {
+    animation: none !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .source-badge {
+    opacity: 1;
+    animation: none;
+  }
+
+  .scene--chat.is-entering .chat-header,
+  .scene--chat.is-entering .welcome__orb,
+  .scene--chat.is-entering .welcome__title,
+  .scene--chat.is-entering .welcome__sub,
+  .scene--chat.is-entering .welcome__chips .chip,
+  .scene--chat.is-entering .composer-dock {
+    animation: none !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}

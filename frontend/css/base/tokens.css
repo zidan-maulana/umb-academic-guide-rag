@@ -1,0 +1,135 @@
+:root {
+  /* Warna dasar: Langit Pagi Akademik */
+  --bg: #EEF3FA;
+  --bg-deep: #E1EAF6;
+  --surface: #F8FBFF;
+  --surface-glass: rgba(248, 251, 255, 0.85);
+  --surface-2: #E8EFF9;
+  --border: #D3DEEE;
+
+  /* Teks */
+  --text: #14233F;
+  --text-muted: #5B6B88;
+
+  /* Primer & Aksen (WCAG AA terverifikasi >= 4.5:1) */
+  --primary: #3D6BC9;
+  --primary-hover: #3159AE;
+  --primary-soft: #DCE7F8;
+  --primary-ring: rgba(61, 107, 201, 0.2);
+  --on-primary: #FFFFFF;
+
+  --accent: #5BB8D9;
+  --accent-border: rgba(91, 184, 217, 0.4);
+  --accent-soft: #DDF1F8;
+
+  --success: #1E7A58;
+  --danger: #A63A2B;
+  --danger-soft: #FBEAE6;
+  --danger-border: rgba(166, 58, 43, 0.35);
+
+  /* Gradien & Aurora */
+  --grad-hero: linear-gradient(135deg, #3D6BC9 0%, #2872A8 100%);
+  --grad-text: linear-gradient(120deg, #3D6BC9, #2872A8);
+  --aurora-1: radial-gradient(40% 40% at 20% 20%, rgba(91, 184, 217, 0.35), transparent 70%);
+  --aurora-2: radial-gradient(45% 45% at 80% 30%, rgba(61, 107, 201, 0.3), transparent 70%);
+  --aurora-3: radial-gradient(40% 40% at 50% 90%, rgba(134, 169, 242, 0.25), transparent 70%);
+
+  /* Tipografi */
+  --font-display: "Bricolage Grotesque", system-ui, -apple-system, sans-serif;
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-sans: "Figtree", system-ui, -apple-system, sans-serif;
+
+  /* Ukuran teks & jarak */
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.9375rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.25rem;
+  --text-hero: clamp(2.5rem, 4.8vw, 4.25rem);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 80px;
+
+  --container-max: 1120px;
+  --chat-max: 800px;
+  --header-h: 64px;
+  --tap-min: 44px;
+
+  /* Radius & Bayangan */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(20, 35, 63, 0.06);
+  --shadow-md: 0 8px 24px rgba(20, 35, 63, 0.08), 0 2px 4px rgba(20, 35, 63, 0.04);
+  --shadow-lg: 0 24px 60px rgba(20, 35, 63, 0.14);
+  --glow: 0 0 0 1px rgba(91, 184, 217, 0.35), 0 10px 40px rgba(61, 107, 201, 0.28);
+  --glow-strong: 0 0 0 1px rgba(91, 184, 217, 0.5), 0 14px 48px rgba(61, 107, 201, 0.36);
+
+  /* Gerak */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 150ms;
+  --dur-base: 240ms;
+  --dur-slow: 480ms;
+  --dur-scene: 900ms;
+  --dur-back: 600ms;
+
+  /* Lapisan z-index */
+  --z-bg: 0;
+  --z-scene: 1;
+  --z-sticky: 10;
+  --z-floating: 20;
+  --z-transition: 30;
+  --z-toast: 40;
+}
+
+[data-theme="dark"] {
+  /* Observatorium Malam */
+  --bg: #0B1322;
+  --bg-deep: #08101C;
+  --surface: #121C31;
+  --surface-glass: rgba(18, 28, 49, 0.85);
+  --surface-2: #1A2640;
+  --border: #25324F;
+
+  --text: #E6ECF8;
+  --text-muted: #93A3C4;
+
+  --primary: #86A9F2;
+  --primary-hover: #A1BCF7;
+  --primary-soft: #1C2B4D;
+  --primary-ring: rgba(134, 169, 242, 0.28);
+  --on-primary: #0B1322;
+
+  --accent: #7FD0EA;
+  --accent-border: rgba(127, 208, 234, 0.4);
+  --accent-soft: #16323F;
+
+  --success: #55C9A0;
+  --danger: #FF8A7A;
+  --danger-soft: #3A201D;
+  --danger-border: rgba(255, 138, 122, 0.4);
+
+  --grad-hero: linear-gradient(135deg, #3D6BC9 0%, #2872A8 100%);
+  --grad-text: linear-gradient(120deg, #86A9F2, #7FD0EA);
+  --aurora-1: radial-gradient(40% 40% at 20% 20%, rgba(127, 208, 234, 0.22), transparent 70%);
+  --aurora-2: radial-gradient(45% 45% at 80% 30%, rgba(61, 107, 201, 0.24), transparent 70%);
+  --aurora-3: radial-gradient(40% 40% at 50% 90%, rgba(134, 169, 242, 0.16), transparent 70%);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.32);
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.42);
+}

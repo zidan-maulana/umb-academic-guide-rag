@@ -1,9 +1,0 @@
-/**
- * Main stylesheet importing modular CSS components.
- */
-@import "./css/tokens.css";
-@import "./css/base.css";
-@import "./css/header.css";
-@import "./css/chat.css";
-@import "./css/composer.css";
-@import "./css/animations.css";

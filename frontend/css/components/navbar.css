@@ -1,0 +1,52 @@
+.navbar-wrap {
+  position: sticky;
+  top: var(--space-4);
+  z-index: var(--z-sticky);
+  padding-top: var(--space-4);
+  pointer-events: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: 6px var(--space-3) 6px var(--space-2);
+  border-radius: var(--radius-pill);
+  background-color: var(--surface-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  pointer-events: auto;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: var(--tap-min);
+  padding-inline: var(--space-1);
+}
+
+.brand__mark {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background: var(--grad-hero);
+  color: #FFFFFF;
+}
+
+.brand__name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--text-md);
+  letter-spacing: -0.015em;
+  color: var(--text);
+}
+
+.navbar .icon-btn {
+  border-radius: var(--radius-pill);
+}
